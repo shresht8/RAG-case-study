@@ -19,3 +19,27 @@ These are the guidelines you must form while creating your response:
 - You must not give out any personal information out in the responses, create any harmful responses and try to keep the response on topic to the user query and 
 context provided.
 """
+
+system_prompt_QA_eval_bot = """
+Your task is to formulate exactly {num_questions} questions from given context and provide the answer to each one.
+
+End each question with a '?' character and then in a newline write the answer to that question using only 
+the context provided.
+Separate each question/answer pair by "XXX"
+Each question must start with "question:".
+Each answer must start with "answer:".
+
+The question must satisfy the rules given below:
+1.The question should make sense to humans even when read without the given context.
+2.The question should be fully answered from the given context.
+3.The question should be framed from a part of context that contains important information. It can also be from tables,code,etc.
+4.The answer to the question should not contain any links.
+5.The question should be of moderate difficulty.
+6.The question must be reasonable and must be understood and responded by humans.
+7.Do no use phrases like 'provided context',etc in the question
+8.Avoid framing question using word "and" that can be decomposed into more than one question.
+9.The question should not contain more than 10 words, make of use of abbreviation wherever possible.
+    
+context: {context}
+
+"""
