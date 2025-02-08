@@ -25,20 +25,26 @@ Your task is to formulate exactly {num_questions} questions from the document pr
 The chunk set is a collection of chunks from a document.
 End each question with a '?' character and then in a newline write the answer to that question using only 
 the context provided.
-Separate each question/answer pair by "XXX"
-Each question must start with "question:".
-Each answer must start with "answer:".
+These are the parameters to be generated:
+- question: The question to be asked. The question must be in the context of the chunk set provided.
+- answer: The answer to the question. The answer must be in the chunk set provided.
+- difficulty: The difficulty level of the question
+- chunk_ids: The chunk IDs that the question and answer are based on. These chunk IDs can be one or more than one.
 
 The question must satisfy the rules given below:
 1.The question should make sense to humans even when read without the given context.
 2.The question should be fully answered from the given chunk set.
-3.The question should be framed from a part of context that contains important information. It can also be from tables,code,etc.
 4.The answer to the question should not contain any links.
-5.The question should be of moderate difficulty.
-6.The question must be reasonable and must be understood and responded by humans.
-7.Do no use phrases like 'provided context',etc in the question
-8.Avoid framing question using word "and" that can be decomposed into more than one question.
-9.The question should not contain more than 10 words, make of use of abbreviation wherever possible.
+5.The question must be reasonable and must be understood and responded by humans.
+6. The answer must be in the chunk set provided.
+7. Questions of all difficulty levels must be present in similar proportions.
+ - Easy questions: Questions that can be easily answered from a fewer chunks.
+ - Medium questions: Questions that can be answered from a moderate number of chunks. It might take a user a little more time to find the answer from the chunk set
+ - Hard questions: Questions that can only be answered from a large number of chunks. It might take a user more time and reasoning to find the answer from the chunk set.
+8.Do no use phrases like 'provided context',etc in the question
+9.Avoid framing question using word "and" that can be decomposed into more than one question.
+10.The question should not contain more than 10 words, make of use of abbreviation wherever possible.
+
     
 chunk set: {chunk_set}
 
