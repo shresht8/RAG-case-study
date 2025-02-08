@@ -29,7 +29,8 @@ These are the parameters to be generated:
 - question: The question to be asked. The question must be in the context of the chunk set provided.
 - answer: The answer to the question. The answer must be in the chunk set provided.
 - difficulty: The difficulty level of the question
-- chunk_ids: The chunk IDs that the question and answer are based on. These chunk IDs can be one or more than one.
+- chunk_ids: The chunk IDs that the question and answer are based on. You must pick 10 chunks that are most relevant to the question. Arrange 
+them in the order of relevance to the question with the most relevant chunk first and the least relevant last.
 
 The question must satisfy the rules given below:
 1.The question should make sense to humans even when read without the given context.
