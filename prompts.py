@@ -44,7 +44,8 @@ The question must satisfy the rules given below:
  - Hard questions: Questions that can only be answered from a large number of chunks. It might take a user more time and reasoning to find the answer from the chunk set.
 8.Do no use phrases like 'provided context',etc in the question
 9.Avoid framing question using word "and" that can be decomposed into more than one question.
-10.The question should not contain more than 10 words, make of use of abbreviation wherever possible.
+10. Make sure your response can be loaded using json.loads() function
+
 
     
 chunk set: {chunk_set}
