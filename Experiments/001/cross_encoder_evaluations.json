@@ -1,0 +1,1122 @@
+[
+  {
+    "question": "What is the AI Act's objective?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_12",
+      "AI_ACT-with-image-refs_chunk_1",
+      "AI_ACT-with-image-refs_chunk_2",
+      "AI_ACT-with-image-refs_chunk_4",
+      "AI_ACT-with-image-refs_chunk_5",
+      "AI_ACT-with-image-refs_chunk_6",
+      "AI_ACT-with-image-refs_chunk_7",
+      "AI_ACT-with-image-refs_chunk_8",
+      "AI_ACT-with-image-refs_chunk_9"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "When will AI Act be applicable?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_130",
+      "AI_ACT-with-image-refs_chunk_1",
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_12",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_112"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "What does \"AI System\" mean?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_12",
+      "AI_ACT-with-image-refs_chunk_113",
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_23",
+      "AI_ACT-with-image-refs_chunk_24",
+      "AI_ACT-with-image-refs_chunk_30",
+      "AI_ACT-with-image-refs_chunk_40"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_25"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_25"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What does \"putting into service\" mean regarding an AI system?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_24",
+      "AI_ACT-with-image-refs_chunk_25",
+      "AI_ACT-with-image-refs_chunk_40",
+      "AI_ACT-with-image-refs_chunk_46",
+      "AI_ACT-with-image-refs_chunk_50",
+      "AI_ACT-with-image-refs_chunk_60"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "Who is considered a \"provider\"?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_24",
+      "AI_ACT-with-image-refs_chunk_30",
+      "AI_ACT-with-image-refs_chunk_36",
+      "AI_ACT-with-image-refs_chunk_39",
+      "AI_ACT-with-image-refs_chunk_49",
+      "AI_ACT-with-image-refs_chunk_58"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What is \"informed consent\" in testing?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_60",
+      "AI_ACT-with-image-refs_chunk_61",
+      "AI_ACT-with-image-refs_chunk_72",
+      "AI_ACT-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_76",
+      "AI_ACT-with-image-refs_chunk_10",
+      "AI_ACT-with-image-refs_chunk_57",
+      "AI_ACT-with-image-refs_chunk_59",
+      "AI_ACT-with-image-refs_chunk_73"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_77",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_77",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What is a \"deep fake\"?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_65",
+      "AI_ACT-with-image-refs_chunk_9",
+      "AI_ACT-with-image-refs_chunk_43",
+      "AI_ACT-with-image-refs_chunk_53",
+      "AI_ACT-with-image-refs_chunk_5",
+      "AI_ACT-with-image-refs_chunk_6",
+      "AI_ACT-with-image-refs_chunk_7",
+      "AI_ACT-with-image-refs_chunk_133",
+      "AI_ACT-with-image-refs_chunk_134"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_114",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_114",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What's the definition of \"widespread infringement\"?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_89",
+      "AI_ACT-with-image-refs_chunk_95",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_81",
+      "AI_ACT-with-image-refs_chunk_90",
+      "AI_ACT-with-image-refs_chunk_91",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_98"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_117"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_117"
+    ],
+    "total_overlap_chunks": 3
+  },
+  {
+    "question": "What does \"critical infrastructure\" mean?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_133",
+      "AI_ACT-with-image-refs_chunk_33",
+      "AI_ACT-with-image-refs_chunk_5",
+      "AI_ACT-with-image-refs_chunk_6",
+      "AI_ACT-with-image-refs_chunk_7",
+      "AI_ACT-with-image-refs_chunk_8",
+      "AI_ACT-with-image-refs_chunk_9",
+      "AI_ACT-with-image-refs_chunk_110",
+      "AI_ACT-with-image-refs_chunk_112"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_69"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_69"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "Who is responsible for ensuring AI literacy?",
+    "llm_chunk_labels": [
+      "AI_ACT-with-image-refs_chunk_15",
+      "AI_ACT-with-image-refs_chunk_6",
+      "AI_ACT-with-image-refs_chunk_7",
+      "AI_ACT-with-image-refs_chunk_8",
+      "AI_ACT-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_40",
+      "AI_ACT-with-image-refs_chunk_112"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_135",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_25"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_44",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_135",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_25"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "CCPA effective date?",
+    "llm_chunk_labels": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "cross_encoder_top_10": [
+      "GDPR-with-image-refs_chunk_114",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_25",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_25",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "Which entities must comply with CCPA?",
+    "llm_chunk_labels": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "cross_encoder_top_10": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "Who is considered a 'Consumer' under CCPA?",
+    "llm_chunk_labels": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "cross_encoder_top_10": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "What constitutes 'Personal Information' under CCPA?",
+    "llm_chunk_labels": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "cross_encoder_top_10": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_19",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_19",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "What is 'selling' Personal Information under CCPA?",
+    "llm_chunk_labels": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "cross_encoder_top_10": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 1
+  },
+  {
+    "question": "What does GDPR stand for?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_1",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "When was GDPR adopted?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_1",
+      "GDPR-with-image-refs_chunk_121",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_125"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_96",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_125"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What is main objective of GDPR?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_1",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_21"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_21"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What is a data subject?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_19",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_19",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What does 'processing' mean under GDPR?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What is pseudonymisation?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_38",
+      "GDPR-with-image-refs_chunk_46",
+      "GDPR-with-image-refs_chunk_55",
+      "GDPR-with-image-refs_chunk_109",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What constitutes a \"filing system\"?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_10",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "Who is a 'controller' under GDPR?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "final_ground_truth": [
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_101",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "Define \"processor\" in GDPR context.",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_41",
+      "GDPR-with-image-refs_chunk_42",
+      "GDPR-with-image-refs_chunk_43",
+      "GDPR-with-image-refs_chunk_44",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6"
+    ],
+    "cross_encoder_top_10": [
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87"
+    ],
+    "final_ground_truth": [
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_114",
+      "AI_ACT-with-image-refs_chunk_77",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_87"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What does data concerning health include?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_18",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_23",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_23",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "What are \"biometric data\" under GDPR?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_114"
+    ],
+    "final_ground_truth": [
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_87",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_114"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "How is \"main establishment\" defined for a controller?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8",
+      "GDPR-with-image-refs_chunk_9",
+      "GDPR-with-image-refs_chunk_10"
+    ],
+    "cross_encoder_top_10": [
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11"
+    ],
+    "final_ground_truth": [
+      "GDPR-with-image-refs_chunk_99",
+      "AI_ACT-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_87",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_97",
+      "AI_ACT-with-image-refs_chunk_27",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11"
+    ],
+    "total_overlap_chunks": 0
+  },
+  {
+    "question": "How is data breach defined?",
+    "llm_chunk_labels": [
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_47",
+      "GDPR-with-image-refs_chunk_48",
+      "GDPR-with-image-refs_chunk_2",
+      "GDPR-with-image-refs_chunk_3",
+      "GDPR-with-image-refs_chunk_4",
+      "GDPR-with-image-refs_chunk_5",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_8"
+    ],
+    "cross_encoder_top_10": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_77"
+    ],
+    "final_ground_truth": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_99",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_96",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_77"
+    ],
+    "total_overlap_chunks": 0
+  }
+]
