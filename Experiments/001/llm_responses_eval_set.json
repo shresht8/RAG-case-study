@@ -1,9 +1,9 @@
 [
   {
     "question": "What is the AI Act's objective?",
-    "answer": "The purpose of this Regulation is to improve the functioning of the internal market by laying down a uniform legal framework in particular for the development, the placing on the market, the putting into service and the use of artificial intelligence systems (AI systems) in the Union, in accordance with Union values, to promote the uptake of human centric and trustworthy artificial intelligence (AI) while ensuring a high level of protection of health, safety, fundamental rights as enshrined in the Charter of Fundamental Rights of the European Union (the 'Charter'), including democracy, the rule of law and environmental protection, to protect against the harmful effects of AI systems in the Union, and to support innovation.",
+    "ground_truth_answer": "The purpose of this Regulation is to improve the functioning of the internal market by laying down a uniform legal framework in particular for the development, the placing on the market, the putting into service and the use of artificial intelligence systems (AI systems) in the Union, in accordance with Union values, to promote the uptake of human centric and trustworthy artificial intelligence (AI) while ensuring a high level of protection of health, safety, fundamental rights as enshrined in the Charter of Fundamental Rights of the European Union (the 'Charter'), including democracy, the rule of law and environmental protection, to protect against the harmful effects of AI systems in the Union, and to support innovation.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_3",
       "AI_ACT-with-image-refs_chunk_12",
       "AI_ACT-with-image-refs_chunk_1",
@@ -16,26 +16,38 @@
       "AI_ACT-with-image-refs_chunk_9"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "The AI Act is designed to improve the functioning of the internal market and promote the uptake of human‐centric and trustworthy AI, while ensuring a high level of protection for health, safety, and fundamental rights. In essence, it establishes harmonized rules for the development, deployment, and use of AI systems to prevent fragmentation across the Union, support innovation, and protect public interests such as democracy, the rule of law, and environmental protection.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_73",
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_71",
+      "AI_ACT-with-image-refs_chunk_12",
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_74",
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_133"
+    ],
+    "llm_response": "The AI Act aims to establish a harmonized legal framework across the Union that both enhances the functioning of the internal market and fosters the uptake of human‑centric and trustworthy AI. This is achieved by setting uniform rules for the development, market placement, and use of AI systems, supporting innovation while ensuring a high standard of protection for health, safety, and fundamental rights (including democracy, the rule of law, and environmental protection) against potential harms caused by AI.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_73": "The purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human-centric and trustworthy artificial intelligence (AI), while ensuring a high level of protection of health, safety and fundamental rights enshrined in the Charter.",
-      "AI_ACT-with-image-refs_chunk_3": "It lays down harmonized rules for the placing on the market, the putting into service, and the use of AI systems in the Union.",
-      "AI_ACT-with-image-refs_chunk_71": "The Regulation supports innovation and guarantees the free movement of AI-based goods and services across the Union.",
-      "AI_ACT-with-image-refs_chunk_12": "The act is aimed at preventing the harmful effects of AI systems by safeguarding fundamental rights, including democracy, the rule of law, and environmental protection.",
-      "AI_ACT-with-image-refs_chunk_17": "It seeks to provide robust safeguards against risks emerging from the use of AI systems while ensuring legal certainty across Member States.",
-      "AI_ACT-with-image-refs_chunk_11": "The Regulation is intended to foster the development of a European ecosystem of secure, trustworthy, and ethical AI systems.",
-      "AI_ACT-with-image-refs_chunk_74": "The Regulation aims to balance the rapid innovation in AI technologies with the need for regulation to protect public interests.",
-      "AI_ACT-with-image-refs_chunk_14": "By establishing clear and common principles, the Regulation is designed to prevent legal fragmentation across the Union.",
-      "AI_ACT-with-image-refs_chunk_28": "It ensures that high standards of protection for health, safety, and fundamental rights are maintained while also boosting innovation in the AI sector.",
-      "AI_ACT-with-image-refs_chunk_133": "In summary, the objective of the AI Act is to create a free, competitive, and safe internal market for AI, underpinned by strong safeguards to protect public interests and human rights."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_73": "The purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human‑centric and trustworthy artificial intelligence (AI), while ensuring a high level of protection of health, safety, fundamental rights enshrined in the Charter, including democracy, the rule of law and environmental protection, against the harmful effects of AI systems in the Union and supporting innovation.",
+      "AI_ACT-with-image-refs_chunk_3": "This Regulation lays down harmonised rules for the placing on the market, the putting into service, and the use of AI systems in the Union, thereby ensuring consistent standards across Member States.",
+      "AI_ACT-with-image-refs_chunk_71": "By providing a uniform legal framework, the AI Act aims to prevent fragmentation of the internal market and to guarantee legal certainty for AI providers and deployers.",
+      "AI_ACT-with-image-refs_chunk_12": "The regulation supports innovation by establishing measures that promote the uptake of AI while safeguarding fundamental rights.",
+      "AI_ACT-with-image-refs_chunk_17": "The overarching objective is to balance the benefits of AI in various sectors, such as public health, safety, and environmental protection, with the need to mitigate risks associated with its use.",
+      "AI_ACT-with-image-refs_chunk_11": "Ensuring a high level of protection for health, safety, and fundamental rights is a core objective of the AI Act, reflecting Union values such as democracy, the rule of law, and environmental protection.",
+      "AI_ACT-with-image-refs_chunk_74": "The Act is intended to stimulate the digital transformation within the Union by supporting innovation while simultaneously placing obligations on AI systems to prevent harmful effects.",
+      "AI_ACT-with-image-refs_chunk_14": "The framework established by the AI Act is designed to foster trust and transparency in the use of AI, thereby contributing to a sustainable and safe digital ecosystem.",
+      "AI_ACT-with-image-refs_chunk_28": "By ensuring uniformity in the regulatory environment across Member States, the AI Act helps avoid national divergences that could otherwise hamper the free movement of AI-based goods and services.",
+      "AI_ACT-with-image-refs_chunk_133": "Overall, the objective of the AI Act is to create a safe, trustworthy, and innovative AI ecosystem in the Union, balancing market needs with stringent protections of public interests."
     }
   },
   {
     "question": "When will AI Act be applicable?",
-    "answer": "This Regulation shall apply from 2 August 2026.",
+    "ground_truth_answer": "This Regulation shall apply from 2 August 2026.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_130",
       "AI_ACT-with-image-refs_chunk_1",
       "AI_ACT-with-image-refs_chunk_3",
@@ -48,26 +60,38 @@
       "AI_ACT-with-image-refs_chunk_112"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "The AI Act becomes applicable on a phased basis, depending on when the AI system was placed on the market or put into service and on its type. For instance:\n\n• AI systems that are part of large‐scale IT systems and were placed on the market or put into service before 2 August 2027 must be brought into compliance with the Regulation by 31 December 2030.\n\n• High‐risk AI systems (other than those in the previous category) that were placed on the market or put into service before 2 August 2026 will only be subject to the Regulation if they undergo significant design changes starting from that date, with compliance required by 2 August 2030.\n\n• Providers of general‐purpose AI models placed on the market before 2 August 2025 must comply with the Regulation by 2 August 2027.\n\nThus, the applicability of the AI Act is staggered, with different deadlines depending on the category of the AI system.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_128",
+      "AI_ACT-with-image-refs_chunk_90",
+      "AI_ACT-with-image-refs_chunk_111",
+      "AI_ACT-with-image-refs_chunk_32",
+      "AI_ACT-with-image-refs_chunk_33",
+      "AI_ACT-with-image-refs_chunk_4",
+      "AI_ACT-with-image-refs_chunk_129",
+      "AI_ACT-with-image-refs_chunk_1",
+      "AI_ACT-with-image-refs_chunk_65",
+      "AI_ACT-with-image-refs_chunk_72"
+    ],
+    "llm_response": "The AI Act will be phased in according to different deadlines depending on the type and timing of the AI system’s placement or modification. For example, AI systems that are components of large‐scale IT systems placed on the market or put into service before 2 August 2027 must be brought into compliance by 31 December 2030. In addition, for high‐risk AI systems (other than those covered by the previous category) that were put into service before 2 August 2026, the regulation applies if significant design changes occur after that date – and those used by public authorities must comply by 2 August 2030. Providers of general‐purpose AI models placed on the market before 2 August 2025 are required to meet the regulation’s obligations by 2 August 2027. In short, the application of the AI Act is staggered with transitional periods based on when systems are placed on the market, put into service, or significantly modified.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_128": "AI systems already placed on the market or put into service as part of large‐scale IT systems (listed in Annex X) that were placed on the market or put into service before 2 August 2027 must be brought into compliance with the Regulation by 31 December 2030.",
-      "AI_ACT-with-image-refs_chunk_90": "High‐risk AI systems, other than those in large‐scale IT systems, placed on the market or put into service before 2 August 2026 are subject to the Regulation only if, as of that date, they undergo significant changes in design, with required compliance by 2 August 2030.",
-      "AI_ACT-with-image-refs_chunk_111": "Providers of general‐purpose AI models placed on the market before 2 August 2025 are required to take the necessary steps to comply with the Regulation by 2 August 2027.",
-      "AI_ACT-with-image-refs_chunk_32": "The applicability of the AI Act is determined by the date of market placement or service commencement, which is why different categories have different deadlines.",
-      "AI_ACT-with-image-refs_chunk_33": "Significant design changes in high‐risk AI systems trigger the application of the Regulation from 2 August 2026 onward.",
-      "AI_ACT-with-image-refs_chunk_4": "The Regulation sets distinct deadlines for compliance based on the type of AI system and the date of market entry or deployment.",
-      "AI_ACT-with-image-refs_chunk_129": "Compliance deadlines are as follows: 31 December 2030 for AI systems that are part of large‐scale IT systems and high‐risk AI systems subject to design changes, and 2 August 2027 for general‐purpose AI models.",
-      "AI_ACT-with-image-refs_chunk_1": "The AI Act’s applicability is triggered when an AI system is placed on the market or put into service, with specific deadlines depending on the type of system.",
-      "AI_ACT-with-image-refs_chunk_65": "Operators and providers must ensure that their systems comply with the Regulation by the set deadlines based on the market placement date.",
-      "AI_ACT-with-image-refs_chunk_72": "Different categories of AI systems, such as high‐risk systems and general‐purpose AI models, have different application dates and compliance deadlines."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_128": "AI systems which are components of large-scale IT systems established by the legal acts listed in Annex X that have been placed on the market or put into service before 2 August 2027 shall be brought into compliance with this Regulation by 31 December 2030.",
+      "AI_ACT-with-image-refs_chunk_90": "Operators of high-risk AI systems, other than the ones referred to as components of large-scale IT systems, that have been placed on the market or put into service before 2 August 2026, must comply with the regulation if significant changes in design occur—with providers used by public authorities required to comply by 2 August 2030.",
+      "AI_ACT-with-image-refs_chunk_111": "Providers of general-purpose AI models that have been placed on the market before 2 August 2025 must take the necessary steps to comply with the obligations of this Regulation by 2 August 2027.",
+      "AI_ACT-with-image-refs_chunk_32": "The regulation sets out different applicability dates according to the risk classification and market placement of AI systems.",
+      "AI_ACT-with-image-refs_chunk_33": "The staggered deadlines ensure that systems already on the market are gradually brought into compliance, reflecting the phased approach of the regulation.",
+      "AI_ACT-with-image-refs_chunk_4": "Compliance deadlines such as 31 December 2030 for large-scale IT system components and 2 August 2030 for high-risk systems used by public authorities are specified in the regulation.",
+      "AI_ACT-with-image-refs_chunk_129": "If there are significant changes in the design of high-risk AI systems placed on the market before 2 August 2026, the regulation applies from that point, with relevant compliance deadlines.",
+      "AI_ACT-with-image-refs_chunk_1": "For general-purpose AI models placed on the market before 2 August 2025, the regulation mandates compliance by 2 August 2027.",
+      "AI_ACT-with-image-refs_chunk_65": "The transitional periods set in the regulation outline when the obligations become applicable based on the date of market placement and any subsequent modifications.",
+      "AI_ACT-with-image-refs_chunk_72": "Key dates mentioned in the regulation include 2 August 2027 and 2 August 2030, which mark the deadlines for compliance for different categories of AI systems."
     }
   },
   {
     "question": "What does \"AI System\" mean?",
-    "answer": "'AI system' means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments",
+    "ground_truth_answer": "'AI system' means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_12",
       "AI_ACT-with-image-refs_chunk_113",
@@ -80,9 +104,21 @@
       "AI_ACT-with-image-refs_chunk_40"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "According to the Regulation, an “AI system” is defined as a machine‐based system that is designed to operate with varying levels of autonomy, may exhibit adaptiveness after deployment, and, for explicit or implicit objectives, infers from the input it receives how to generate outputs—such as predictions, content, recommendations, or decisions—that can influence physical or virtual environments.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_91",
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_26",
+      "AI_ACT-with-image-refs_chunk_21",
+      "AI_ACT-with-image-refs_chunk_23",
+      "AI_ACT-with-image-refs_chunk_134",
+      "AI_ACT-with-image-refs_chunk_55",
+      "AI_ACT-with-image-refs_chunk_133"
+    ],
+    "llm_response": "An “AI system” is defined as a machine‐based system designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment. It works by inferring from the input it receives to generate outputs such as predictions, content, recommendations, or decisions, which can in turn influence physical or virtual environments.",
     "is_relevant": true,
-    "citation": {
+    "cited_chunk_ids": {
       "AI_ACT-with-image-refs_chunk_14": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.",
       "AI_ACT-with-image-refs_chunk_20": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.",
       "AI_ACT-with-image-refs_chunk_91": "‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.",
@@ -97,9 +133,9 @@
   },
   {
     "question": "What does \"putting into service\" mean regarding an AI system?",
-    "answer": "'putting into service' means the supply of an AI system for first use directly to the deployer or for own use in the Union for its intended purpose",
+    "ground_truth_answer": "'putting into service' means the supply of an AI system for first use directly to the deployer or for own use in the Union for its intended purpose",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_13",
       "AI_ACT-with-image-refs_chunk_17",
@@ -112,26 +148,38 @@
       "AI_ACT-with-image-refs_chunk_60"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "The provided context does not offer a separate or detailed definition for the expression “putting into service”, but it consistently pairs it with “placing on the market” to mark two distinct stages in an AI system’s lifecycle. In this framework, “placing on the market” refers to making the AI system available for sale or distribution, while “putting into service” refers to deploying, installing, or activating the system so that it becomes operational in its intended environment. Essentially, after an AI system is placed on the market, it must be appropriately deployed and made ready for its practical use, which is what is meant by “putting into service”.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_17",
+      "AI_ACT-with-image-refs_chunk_34",
+      "AI_ACT-with-image-refs_chunk_9",
+      "AI_ACT-with-image-refs_chunk_20",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_64",
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_6",
+      "AI_ACT-with-image-refs_chunk_98",
+      "AI_ACT-with-image-refs_chunk_39"
+    ],
+    "llm_response": "Within the framework of this Regulation, “putting into service” means that the AI system has moved beyond simply being available for sale (or placed on the market) and is actually being deployed for operational use. In other words, it refers to the point at which the system is activated for its intended functionality and is used in practice. This phase triggers the application of all corresponding obligations under the Regulation, such as registration in the EU database and adherence to risk management and transparency requirements.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_17": "This Regulation applies to providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union.",
-      "AI_ACT-with-image-refs_chunk_34": "Before placing on the market or putting into service a high‐risk AI system listed in Annex III, the provider or, where applicable, the authorised representative shall register themselves and the system in the EU database.",
-      "AI_ACT-with-image-refs_chunk_9": "The provisions of the Regulation treat 'placing on the market' and 'putting into service' as distinct steps, with both subject to compliance with the related obligations, including registration and conformity assessment.",
-      "AI_ACT-with-image-refs_chunk_20": "Provisions require that when an AI system is put into service, it must have been made operational in accordance with the applicable rules and technical standards, ensuring that it is properly installed and activated for its intended use.",
-      "AI_ACT-with-image-refs_chunk_13": "The classification of high‐risk AI systems includes those that are placed on the market as well as those that are put into service; the latter implies actual deployment in an operational setting.",
-      "AI_ACT-with-image-refs_chunk_64": "Registration obligations specify that before an AI system is put into service, providers must comply with all relevant requirements, ensuring that the system is ready and safe for use.",
-      "AI_ACT-with-image-refs_chunk_3": "The terminology of the Regulation distinguishes between making the AI system available on the market and the act of deploying it (putting into service) for practical, real-world operations.",
-      "AI_ACT-with-image-refs_chunk_6": "Compliance measures in the Regulation apply to both stages: the system must meet conformity assessments before it is placed on the market and again before it is put into service.",
-      "AI_ACT-with-image-refs_chunk_98": "The process of putting an AI system into service implies that beyond mere availability for purchase, the system is actively set up, configured, and used within its operational environment.",
-      "AI_ACT-with-image-refs_chunk_39": "For the purposes of this Regulation, putting into service means that an AI system is deployed in a way that it is fully functional and operational in its intended context, beyond simply being available on the market."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_17": "This Regulation applies to: (a) providers placing on the market or putting into service AI systems ...",
+      "AI_ACT-with-image-refs_chunk_34": "Before placing on the market or putting into service a high‐risk AI system, the provider or authorised representative shall register themselves and the system in the EU database ...",
+      "AI_ACT-with-image-refs_chunk_9": "The phrase ‘putting into service’ indicates the moment an AI system is actually deployed for use as opposed to merely being available for purchase.",
+      "AI_ACT-with-image-refs_chunk_20": "Once an AI system is put into service, it has entered its operational phase and must comply with all regulatory requirements, including those related to risk management and data governance.",
+      "AI_ACT-with-image-refs_chunk_13": "Distinctions are made in the Regulation between placing on the market and putting into service, with the latter referring specifically to the activation and operational use of the system.",
+      "AI_ACT-with-image-refs_chunk_64": "The obligations for high‐risk AI systems start when they are put into service, ensuring that their operational use adheres to all the conformity, transparency, and oversight obligations set out in the Regulation.",
+      "AI_ACT-with-image-refs_chunk_3": "Providers are responsible not only for placing AI systems on the market but also for putting them into service, ensuring active and compliant usage within the Union.",
+      "AI_ACT-with-image-refs_chunk_6": "The concept of ‘putting into service’ distinguishes between an AI system that is merely available and one that is actually in use, thereby triggering all relevant regulatory provisions.",
+      "AI_ACT-with-image-refs_chunk_98": "Registration obligations apply both before placing on the market and before putting into service a high-risk AI system, emphasizing its active deployment.",
+      "AI_ACT-with-image-refs_chunk_39": "While placing on the market concerns making the AI system available for acquisition, putting into service refers to the stage where the system is actively implemented for its intended operational purpose."
     }
   },
   {
     "question": "Who is considered a \"provider\"?",
-    "answer": "'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge",
+    "ground_truth_answer": "'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_13",
       "AI_ACT-with-image-refs_chunk_17",
@@ -144,9 +192,21 @@
       "AI_ACT-with-image-refs_chunk_58"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "A “provider” is defined as a natural or legal person, public authority, agency, or other body that either develops an AI system or a general‐purpose AI model, or has an AI system or general‐purpose AI model developed, and then places it on the market or puts it into service under its own name or trademark – whether for payment or free of charge.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_39",
+      "AI_ACT-with-image-refs_chunk_13",
+      "AI_ACT-with-image-refs_chunk_65",
+      "AI_ACT-with-image-refs_chunk_36",
+      "AI_ACT-with-image-refs_chunk_14",
+      "AI_ACT-with-image-refs_chunk_34",
+      "AI_ACT-with-image-refs_chunk_69",
+      "AI_ACT-with-image-refs_chunk_77",
+      "AI_ACT-with-image-refs_chunk_111",
+      "AI_ACT-with-image-refs_chunk_33"
+    ],
+    "llm_response": "A “provider” is defined as a natural or legal person, public authority, agency, or other body that develops an AI system or a general‐purpose AI model, or that has an AI system or a general‐purpose AI model developed, and then places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge.",
     "is_relevant": true,
-    "citation": {
+    "cited_chunk_ids": {
       "AI_ACT-with-image-refs_chunk_39": "‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.",
       "AI_ACT-with-image-refs_chunk_13": "‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.",
       "AI_ACT-with-image-refs_chunk_65": "‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.",
@@ -161,9 +221,9 @@
   },
   {
     "question": "What is \"informed consent\" in testing?",
-    "answer": "'informed consent' means a subject's freely given, specific, unambiguous and voluntary expression of his or her willingness to participate in a particular testing in real-world conditions, after having been informed of all aspects of the testing that are relevant to the subject's decision to participate",
+    "ground_truth_answer": "'informed consent' means a subject's freely given, specific, unambiguous and voluntary expression of his or her willingness to participate in a particular testing in real-world conditions, after having been informed of all aspects of the testing that are relevant to the subject's decision to participate",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_60",
       "AI_ACT-with-image-refs_chunk_61",
@@ -176,26 +236,38 @@
       "AI_ACT-with-image-refs_chunk_73"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "In the context of testing in real‐world conditions outside AI regulatory sandboxes, informed consent means that before a subject participates in the testing of an AI system, they must be provided with clear, concise, and understandable information about what the testing involves. Specifically, they must be informed about the nature and objectives of the testing, any possible inconveniences associated with participation, the conditions under which the test will be conducted (including its expected duration), and their rights – notably, the right to refuse participation or to withdraw at any time without suffering any detriment. Additionally, the information should include details on how any predictions, recommendations, or decisions made by the AI system may be reversed or disregarded, as well as identification details (such as a Union‐wide unique single identification number and the provider’s contact information). This consent must be freely given, properly documented, dated, and a copy should be provided to the subject or their legal representative.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_76",
+      "AI_ACT-with-image-refs_chunk_10",
+      "GDPR-with-image-refs_chunk_64",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_14",
+      "GDPR-with-image-refs_chunk_16",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31",
+      "GDPR-with-image-refs_chunk_15",
+      "AI_ACT-with-image-refs_chunk_141",
+      "AI_ACT-with-image-refs_chunk_57",
+      "AI_ACT-with-image-refs_chunk_65"
+    ],
+    "llm_response": "In the context of testing, “informed consent” refers to a process where individuals who are invited to participate in real‐world testing must first be provided with clear, concise, and understandable information about the testing. This includes details such as the nature and objectives of the test, any potential inconveniences, the specific conditions under which the testing will be conducted (including its duration), their rights (particularly the right to refuse or withdraw from participation at any time without detriment), and information on how to reverse or disregard AI system decisions. The consent must be freely given, documented with a date, and a copy must be provided to the participating subjects or their legal representatives.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_76": "For the purpose of testing in real world conditions under Article 60, freely-given informed consent shall be obtained from the subjects of testing prior to their participation and after being duly informed with concise, clear, relevant, and understandable information regarding the nature and objectives of the testing, potential inconveniences, testing conditions including expected duration, rights to withdraw, and identification details.",
-      "AI_ACT-with-image-refs_chunk_10": "Subjects must be informed about the nature and objectives of the testing, including the specifics of how the testing will be conducted and any possible inconvenience linked to their participation.",
-      "GDPR-with-image-refs_chunk_64": "Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to the processing of his or her personal data, highlighting that consent must be informed and explicit.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_14": "Informed consent is a key requirement even in contexts where personal data might be retained for purposes such as research, provided that the processing is compatible with the original purposes and additional safeguards are in place.",
-      "GDPR-with-image-refs_chunk_16": "The data subject shall have the right to withdraw his or her consent at any time, and the process of withdrawal must be as easy as the process of giving consent.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "For research purposes, if personal data is retained under an exception, it must have been done so with the informed consent of the consumer and in a manner that complies with subsequent safeguards to avoid reidentification.",
-      "GDPR-with-image-refs_chunk_15": "Processing of personal data is considered lawful if based on consent among other legal bases, emphasizing that the consent must be informed and clearly documented.",
-      "AI_ACT-with-image-refs_chunk_141": "In order to ensure that risks associated with testing AI systems are minimized, the regulation requires that testing conditions include informed consent as a safeguard for individuals participating in real world testing.",
-      "AI_ACT-with-image-refs_chunk_57": "Providers or prospective providers of AI systems must submit a real-world testing plan to competent authorities, which includes mechanisms to obtain informed consent from subjects before testing begins.",
-      "AI_ACT-with-image-refs_chunk_65": "The informed consent for participating in testing must be documented, dated, and a copy of the documented consent must be provided to the test subjects or their legal representatives."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_76": "Informed consent for testing in real world conditions: Subjects must receive clear, concise, and understandable information regarding testing including objectives, potential inconveniences, duration, rights (including withdrawal), and reversal of AI decisions, and consent must be documented.",
+      "AI_ACT-with-image-refs_chunk_10": "For the purpose of testing in real world conditions under Article 60, informed consent shall be obtained prior to testing after providing the necessary information.",
+      "GDPR-with-image-refs_chunk_64": "When processing is based on consent, the controller must be able to demonstrate that the data subject has given consent.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_14": "The Research Exception permits retaining Personal Information for research provided informed consent was obtained initially.",
+      "GDPR-with-image-refs_chunk_16": "The data subject must be informed prior to giving consent, and the process for withdrawing consent should be as easy as providing it.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "Age-related provisions note that specific consent requirements apply for minors, such as obtaining parental or guardian consent for those under age 13.",
+      "GDPR-with-image-refs_chunk_15": "Processing shall be lawful only if one of the legal bases applies, including where the data subject has consented for specific purposes.",
+      "AI_ACT-with-image-refs_chunk_141": "Providers of high‐risk AI systems must secure informed consent from natural persons for testing in real world conditions, ensuring that the measures taken are distinct from data subject consent under data protection laws.",
+      "AI_ACT-with-image-refs_chunk_57": "The registered information for testing must include identification details like a Union-wide unique single identification number and the provider's contact details.",
+      "AI_ACT-with-image-refs_chunk_65": "The informed consent must be documented with a date, and a copy of the consent documentation provided to the participating subjects or their legal representative."
     }
   },
   {
     "question": "What is a \"deep fake\"?",
-    "answer": "'deep fake' means AI-generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful",
+    "ground_truth_answer": "'deep fake' means AI-generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_65",
       "AI_ACT-with-image-refs_chunk_9",
@@ -208,15 +280,27 @@
       "AI_ACT-with-image-refs_chunk_134"
     ],
     "document": "AI_ACT-with-image-refs",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_94",
+      "AI_ACT-with-image-refs_chunk_0",
+      "GDPR-with-image-refs_chunk_110",
+      "AI_ACT-with-image-refs_chunk_17",
+      "GDPR-with-image-refs_chunk_27",
+      "AI_ACT-with-image-refs_chunk_132",
+      "AI_ACT-with-image-refs_chunk_13",
+      "GDPR-with-image-refs_chunk_0",
+      "GDPR-with-image-refs_chunk_63",
+      "GDPR-with-image-refs_chunk_47"
+    ],
     "llm_response": "I cannot help with that",
     "is_relevant": false,
-    "citation": null
+    "cited_chunk_ids": null
   },
   {
     "question": "What's the definition of \"widespread infringement\"?",
-    "answer": "'widespread infringement' means any act or omission contrary to Union law protecting the interest of individuals, which: (a) has harmed or is likely to harm the collective interests of individuals residing in at least two Member States other than the Member State in which: (i) the act or omission originated or took place; (ii) the provider concerned, or, where applicable, its authorised representative is located or established; or (iii) the deployer is established, when the infringement is committed by the deployer; (b) has caused, causes or is likely to cause harm to the collective interests of individuals and has common features, including the same unlawful practice or the same interest being infringed, and is occurring concurrently, committed by the same operator, in at least three Member States",
+    "ground_truth_answer": "'widespread infringement' means any act or omission contrary to Union law protecting the interest of individuals, which: (a) has harmed or is likely to harm the collective interests of individuals residing in at least two Member States other than the Member State in which: (i) the act or omission originated or took place; (ii) the provider concerned, or, where applicable, its authorised representative is located or established; or (iii) the deployer is established, when the infringement is committed by the deployer; (b) has caused, causes or is likely to cause harm to the collective interests of individuals and has common features, including the same unlawful practice or the same interest being infringed, and is occurring concurrently, committed by the same operator, in at least three Member States",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_89",
       "AI_ACT-with-image-refs_chunk_95",
@@ -229,26 +313,27 @@
       "AI_ACT-with-image-refs_chunk_98"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "Based on the provided context, there is no explicit definition given for the term \"widespread infringement.\" None of the sections in the provided documents — whether relating to administrative fines for non-compliance, the reporting of infringements, or the setting of penalties for breaches of the Regulation or GDPR — include a specific explanation or criteria that define what constitutes a \"widespread infringement.\"",
-    "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_117": "The European Data Protection Supervisor may impose administrative fines on Union institutions, bodies, offices and agencies falling within the scope of this Regulation. When deciding whether to impose an administrative fine and when deciding on the amount... (context on fines and circumstances considered)",
-      "AI_ACT-with-image-refs_chunk_103": "Criteria include the nature, gravity and duration of the infringement and of its consequences, including the number of affected persons and level of damage suffered by them, but no mention of a definition for \"widespread infringement.\"",
-      "AI_ACT-with-image-refs_chunk_118": "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines up to EUR 1 500 000, yet there is no characterization of \"widespread infringement.\"",
-      "GDPR-with-image-refs_chunk_97": "Every data subject has the right to lodge a complaint with a supervisory authority if they consider that the processing of personal data infringes this Regulation, without providing a definition of \"widespread infringement.\"",
-      "GDPR-with-image-refs_chunk_104": "Member States shall lay down the rules on other penalties applicable to infringements of this Regulation, including detailed considerations for determining fines, but the term \"widespread infringement\" is not defined.",
-      "GDPR-with-image-refs_chunk_75": "The powers of supervisory authorities include ordering audits, requesting information, and issuing corrective measures, yet this section does not provide a definition for a \"widespread infringement.\"",
-      "AI_ACT-with-image-refs_chunk_116": "With regard to providers of general-purpose AI models, fines may be imposed for intentional or negligent infringements of the Regulation, but there is no use or definition of the term \"widespread infringement.\"",
-      "GDPR-with-image-refs_chunk_103": "Additional details on procedures and penalties under the GDPR are provided, focusing on corrective actions and the proportionality of fines rather than defining what constitutes a \"widespread infringement.\"",
-      "AI_ACT-with-image-refs_chunk_101": "Procedural safeguards ensure that parties are heard before any decision is taken by the European Data Protection Supervisor, yet no definition of \"widespread infringement\" is offered.",
-      "GDPR-with-image-refs_chunk_76": "Rules on penalties and enforcement measures, including warnings and non-monetary measures, are set out under GDPR, but the documentation does not include a definition of what is meant by \"widespread infringement.\""
-    }
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_117",
+      "AI_ACT-with-image-refs_chunk_103",
+      "AI_ACT-with-image-refs_chunk_118",
+      "GDPR-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_104",
+      "GDPR-with-image-refs_chunk_75",
+      "AI_ACT-with-image-refs_chunk_116",
+      "GDPR-with-image-refs_chunk_103",
+      "AI_ACT-with-image-refs_chunk_101",
+      "GDPR-with-image-refs_chunk_76"
+    ],
+    "llm_response": "I cannot help with that",
+    "is_relevant": false,
+    "cited_chunk_ids": null
   },
   {
     "question": "What does \"critical infrastructure\" mean?",
-    "answer": "'critical infrastructure' means critical infrastructure as defined in Article 2, point (4), of Directive (EU) 2022/2557",
+    "ground_truth_answer": "'critical infrastructure' means critical infrastructure as defined in Article 2, point (4), of Directive (EU) 2022/2557",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_14",
       "AI_ACT-with-image-refs_chunk_133",
       "AI_ACT-with-image-refs_chunk_33",
@@ -261,26 +346,38 @@
       "AI_ACT-with-image-refs_chunk_112"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "The term “critical infrastructure” means exactly what is stated in the context: it is defined as the critical infrastructure referred to in Article 2, point (4) of Directive (EU) 2022/2557. In other words, for purposes of the regulation, one should refer to that specific article in the Directive to understand which assets or systems are considered vital.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_61",
+      "AI_ACT-with-image-refs_chunk_14",
+      "GDPR-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_46",
+      "AI_ACT-with-image-refs_chunk_26",
+      "AI_ACT-with-image-refs_chunk_78",
+      "AI_ACT-with-image-refs_chunk_95",
+      "GDPR-with-image-refs_chunk_10",
+      "AI_ACT-with-image-refs_chunk_137",
+      "GDPR-with-image-refs_chunk_6"
+    ],
+    "llm_response": "The term “critical infrastructure” is defined as the infrastructure considered essential for the functioning of society and the economy according to the specific criteria set out in Article 2, point (4) of Directive (EU) 2022/2557. In this context, the regulation defers to that Directive’s definition to determine which systems, assets, or services are deemed critical.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_61": "'critical infrastructure' means critical infrastructure as defined in Article 2, point (4), of Directive (EU) 2022/2557;",
-      "AI_ACT-with-image-refs_chunk_14": "",
-      "GDPR-with-image-refs_chunk_12": "",
-      "GDPR-with-image-refs_chunk_46": "",
-      "AI_ACT-with-image-refs_chunk_26": "",
-      "AI_ACT-with-image-refs_chunk_78": "",
-      "AI_ACT-with-image-refs_chunk_95": "",
-      "GDPR-with-image-refs_chunk_10": "",
-      "AI_ACT-with-image-refs_chunk_137": "",
-      "GDPR-with-image-refs_chunk_6": ""
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_61": "'critical infrastructure' means critical infrastructure as defined in Article 2, point (4), of Directive (EU) 2022/2557.",
+      "AI_ACT-with-image-refs_chunk_14": "N/A",
+      "GDPR-with-image-refs_chunk_12": "N/A",
+      "GDPR-with-image-refs_chunk_46": "N/A",
+      "AI_ACT-with-image-refs_chunk_26": "N/A",
+      "AI_ACT-with-image-refs_chunk_78": "N/A",
+      "AI_ACT-with-image-refs_chunk_95": "N/A",
+      "GDPR-with-image-refs_chunk_10": "N/A",
+      "AI_ACT-with-image-refs_chunk_137": "N/A",
+      "GDPR-with-image-refs_chunk_6": "N/A"
     }
   },
   {
     "question": "Who is responsible for ensuring AI literacy?",
-    "answer": "Providers and deployers of AI systems",
+    "ground_truth_answer": "Providers and deployers of AI systems",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "AI_ACT-with-image-refs_chunk_15",
       "AI_ACT-with-image-refs_chunk_6",
       "AI_ACT-with-image-refs_chunk_7",
@@ -293,26 +390,38 @@
       "AI_ACT-with-image-refs_chunk_112"
     ],
     "document": "AI_ACT-with-image-refs",
-    "llm_response": "Providers and deployers of AI systems are responsible for ensuring a sufficient level of AI literacy among their staff and any other individuals involved in operating or using these systems. They must take appropriate measures based on the technical knowledge, experience, education, and training of their personnel, as well as considering the context in which the AI systems are deployed.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_15",
+      "AI_ACT-with-image-refs_chunk_11",
+      "AI_ACT-with-image-refs_chunk_135",
+      "AI_ACT-with-image-refs_chunk_72",
+      "AI_ACT-with-image-refs_chunk_37",
+      "AI_ACT-with-image-refs_chunk_40",
+      "AI_ACT-with-image-refs_chunk_65",
+      "AI_ACT-with-image-refs_chunk_39",
+      "AI_ACT-with-image-refs_chunk_71",
+      "AI_ACT-with-image-refs_chunk_35"
+    ],
+    "llm_response": "Providers and deployers of AI systems are responsible for ensuring AI literacy. They must take measures to ensure that their staff and all persons involved with the operation and use of these systems achieve a sufficient level of AI literacy, considering their technical knowledge, experience, education, training, and the context in which the AI systems are used.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_15": "Providers and deployers of AI systems shall take measures to ensure, to their best extent, a sufficient level of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context the AI systems are to be used in, and considering the persons or groups of persons on whom the AI systems are to be used.",
-      "AI_ACT-with-image-refs_chunk_11": "Additional context provided in the document supports overall obligations for providers but does not change the responsibility allocation for AI literacy.",
-      "AI_ACT-with-image-refs_chunk_135": "This section of the regulation emphasizes the obligation of providers and deployers in ensuring compliance with various technical and organizational measures.",
-      "AI_ACT-with-image-refs_chunk_72": "Other parts of the regulation outline the responsibilities and accountability mechanisms applicable to AI systems.",
-      "AI_ACT-with-image-refs_chunk_37": "The document underlines that operators must maintain standards and best practices, including AI literacy, to effectively manage AI system risks.",
-      "AI_ACT-with-image-refs_chunk_40": "Emphasis in the regulation is placed on the need for sufficient competence among those interacting with AI systems.",
-      "AI_ACT-with-image-refs_chunk_65": "Further regulatory requirements stress the importance of technical and organizational measures initiated by providers and deployers.",
-      "AI_ACT-with-image-refs_chunk_39": "The role of providers and deployers is critical in upholding the standards set forth in the regulation, including ensuring adequate training and literacy.",
-      "AI_ACT-with-image-refs_chunk_71": "Ensuring high levels of AI literacy is one of the foundational measures to guarantee safe and effective operation of AI systems.",
-      "AI_ACT-with-image-refs_chunk_35": "The regulation clearly assigns responsibility to providers and deployers to foster an adequate level of AI literacy among all relevant stakeholders."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_15": "Providers and deployers of AI systems shall take measures to ensure, to their best extent, a sufficient level of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context the AI systems are to be used in.",
+      "AI_ACT-with-image-refs_chunk_11": "This obligation under AI literacy requires that both providers and deployers guarantee an adequate understanding of AI in their organizations.",
+      "AI_ACT-with-image-refs_chunk_135": "Ensuring AI literacy is a key part of the responsibilities for those involved with AI systems, emphasizing the need for technical and contextual knowledge.",
+      "AI_ACT-with-image-refs_chunk_72": "The text specifies that persons dealing with AI systems on behalf of providers should have the required level of literacy tailored to their role and context.",
+      "AI_ACT-with-image-refs_chunk_37": "AI literacy measures are central, mandating that relevant staff are well trained and informed about the operational, technical, and ethical aspects of AI systems.",
+      "AI_ACT-with-image-refs_chunk_40": "It is the duty of AI system providers and deployers to ensure that their teams meet a sufficient standard of AI literacy, given the technical challenges involved.",
+      "AI_ACT-with-image-refs_chunk_65": "The regulation clearly assigns the responsibility for AI literacy to those who develop, deploy, and manage AI systems, ensuring that users have the necessary competence.",
+      "AI_ACT-with-image-refs_chunk_39": "The requirement to secure an adequate level of AI literacy among staff is formulated to support the safe and effective use of AI systems.",
+      "AI_ACT-with-image-refs_chunk_71": "Ensuring a sufficient level of AI literacy is mentioned as a key measure for providers and deployers, reflecting its importance in the operational context.",
+      "AI_ACT-with-image-refs_chunk_35": "The framework mandates that all persons involved in the operation and use of AI systems must be informed and trained, thus emphasizing AI literacy."
     }
   },
   {
     "question": "CCPA effective date?",
-    "answer": "January 1, 2020.",
+    "ground_truth_answer": "January 1, 2020.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
@@ -325,26 +434,38 @@
       "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
     ],
     "document": "Cybersecurity_California_Privacy-with-image-refs",
-    "llm_response": "The CCPA goes into effect on January 1, 2020.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_18",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_16",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_15"
+    ],
+    "llm_response": "The CCPA went into effect on January 1, 2020.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_5": "In June 2018, California enacted the CCPA, which goes into effect January 1, 2020.",
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5": "In June 2018, California enacted the California Consumer Privacy Act (CCPA or the Act) which goes into effect January 1, 2020.",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_18": "The CCPA goes into effect January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "The Act takes effect on January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "The law stated that its effective date is January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_16": "CCPA, effective January 1, 2020, sets new privacy requirements.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "The effective date of the CCPA is January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "According to the compliance overview, the CCPA is effective January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "The CCPA goes into effect on January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "The effective date of the CCPA is stated as January 1, 2020.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_15": "The law is set to take effect on January 1, 2020."
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "The CCPA will affect any business collecting or storing data about California residents and goes into effect on January 1, 2020.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "Implemented as of January 1, 2020, the CCPA gives California residents considerable rights over their personal information.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_16": "The California Consumer Privacy Act went into effect on January 1, 2020.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "As established, the CCPA comes into force on January 1, 2020.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "The effective date for the CCPA is January 1, 2020.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "Businesses must prepare to be compliant as the CCPA takes effect on January 1, 2020.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "January 1, 2020 marks the effective date of the CCPA.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_15": "The CCPA, with its effective date of January 1, 2020, establishes broad privacy rights for California residents."
     }
   },
   {
     "question": "Which entities must comply with CCPA?",
-    "answer": "For-profit entities doing business in California, collecting CA resident personal info, determining processing purpose & means, & meeting one of the following: >$25M annual revenue, buys/sells 50K+ consumers' info annually, or derives 50%+ revenue from selling personal info.",
+    "ground_truth_answer": "For-profit entities doing business in California, collecting CA resident personal info, determining processing purpose & means, & meeting one of the following: >$25M annual revenue, buys/sells 50K+ consumers' info annually, or derives 50%+ revenue from selling personal info.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
@@ -357,26 +478,38 @@
       "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
     ],
     "document": "Cybersecurity_California_Privacy-with-image-refs",
-    "llm_response": "Entities that must comply with the CCPA are for‑profit businesses that (1) do business in California, (2) collect personal information of California residents (or have such data collected on their behalf), and (3) either singly or jointly determine the purpose and means of processing that personal information. In addition, the business must meet at least one of the following criteria:\n\n• Have annual gross revenues in excess of $25 million (adjusted for inflation),\n• Annually buy, receive for a commercial purpose, sell, or share the personal information of 50,000 or more consumers, households, or devices, or\n• Derive 50 percent or more of its annual revenues from selling consumers’ personal information.\n\nOnly businesses that meet all the above conditions need to comply with the CCPA.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_20",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_15",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_38",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_30",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_33",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "llm_response": "According to the provided context, the CCPA applies to any for‐profit entity that meets all of the following conditions: (1) It does business in California; (2) It collects personal information of California residents (or has such information collected on its behalf); and (3) It determines, either alone or jointly with others, the purpose and means of processing that information. In addition, the entity must meet at least one of the following criteria: it has annual gross revenues over $25 million (adjusted for inflation), it annually buys, receives for a commercial purpose, sells, or shares the personal information of 50,000 or more consumers, households, or devices, or it derives 50% or more of its annual revenues from selling consumers' personal information.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_20": "The CCPA applies to any for‑profit entity that (i) does business in California, (ii) collects personal information of California residents (or has such information collected on its behalf), (iii) determines on its own or jointly with others the purpose and means of processing that information, and (iv) meets one or more of the following criteria: has annual gross revenues in excess of $25 million, adjusted for inflation; annually buys, receives for a commercial purpose, sells or shares the personal information of 50,000 or more consumers, households or devices; or derives 50 percent or more of its annual revenues from selling consumers' personal information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "Any business meeting these criteria is required to comply with the CCPA.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_15": "The criteria include thresholds based on gross revenues and the volume of consumer data processed, sold, or shared.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_4": "The law broadly defines doing business in California for these entities.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_38": "Entities must either collect personal information directly from California consumers or have it collected on their behalf.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_11": "A key element is that the entity must determine the purpose and means of processing the personal information, either individually or jointly with third parties.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_30": "The qualifying criteria include having over $25 million in annual gross revenues, or processing personal information for at least 50,000 consumers, households, or devices, or earning 50% or more of annual revenues from selling consumer information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_5": "Collecting or receiving consumer data is a critical aspect of the CCPA's scope.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_33": "Meeting any one of the specified thresholds, in addition to the other requirements, triggers compliance obligations under the CCPA.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "Thus, only for‑profit entities that satisfy all the stated conditions are subject to the CCPA's requirements."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_20": "Which Entities Need to Comply With the CCPA?\nThe CCPA applies to any for-profit entity that (i) does business in California, (ii) collects personal information of California residents (or has such information collected on its behalf), (iii) determines on its own or jointly with others the purpose and means of processing that information, and (iv) meets one or more of the following criteria:",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "has annual gross revenues in excess of $25 million, adjusted for inflation;",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_15": "annually buys, receives for a commercial purpose, sells or shares the personal information of 50,000 or more consumers, households or devices;",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_4": "or derives 50 percent or more of its annual revenues from selling consumers' personal information.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_38": "The territorial scope of the CCPA is defined broadly, ensuring that almost any business handling Californian data in some way may fall under its requirements.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11": "The term 'Business' as used in the CCPA refers to for-profit entities that meet the outlined criteria and are therefore subject to the Act's obligations.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_30": "This includes any entity that collects and processes personal information of California residents, with specific thresholds that, if met, trigger full compliance obligations under the CCPA.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_5": "The CCPA’s applicability hinges on both the nature of the business (for-profit and doing business in California) and specific quantitative thresholds related to data collection or revenue derived from personal information.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_33": "Entities must therefore assess their data collection practices and revenue sources to determine if they meet the criteria set forth in the CCPA.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "In summary, to be subject to the CCPA, a business must operate in California, handle personal information of its residents, and meet at least one quantitative threshold regarding revenues or volumes of personal data processed."
     }
   },
   {
     "question": "Who is considered a 'Consumer' under CCPA?",
-    "answer": "Anyone meeting the definition of 'resident' under CA tax provisions, including employees.",
+    "ground_truth_answer": "Anyone meeting the definition of 'resident' under CA tax provisions, including employees.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
@@ -389,26 +522,38 @@
       "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
     ],
     "document": "Cybersecurity_California_Privacy-with-image-refs",
-    "llm_response": "Under the CCPA, a 'Consumer' is considered to be any California resident. More specifically, a Consumer is defined as any individual who is in California for other than a temporary or transitory purpose, as well as any individual who is domiciled in California even if they are temporarily outside the state. It is also assumed that employees of a business are included within this definition of Consumer.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_33",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11"
+    ],
+    "llm_response": "Under the CCPA, a 'Consumer' is defined as any California resident who meets the definition of 'resident' under California tax provisions. Specifically, this means any individual who is in California for purposes other than a temporary or transitory one, as well as any individual who is domiciled in California even if temporarily outside the state. Importantly, the CCPA’s definition of a Consumer is broad enough to include employees, meaning that businesses should assume that employees are also covered by these requirements.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_6": "A California resident, referred to as a 'Consumer' in the CCPA, is anyone who meets the definition of 'resident' as defined under the California tax provisions. In general, the California tax provision defines a California resident as (i) every individual who is in California for other than a temporary or transitory purpose, and (ii) every individual who is domiciled in California but is outside California for a temporary or transitory purpose.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_33": "A California resident, referred to as a 'Consumer' in the CCPA, is anyone who meets the definition of 'resident' as defined under the California tax provisions.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "The definition includes every individual who is in California for other than a temporary or transitory purpose.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "Additionally, it includes every individual who is domiciled in California but happens to be outside the state temporarily.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "Because of the complexities in determining temporary versus permanent presence, businesses often adopt a broad approach to defining who is a Consumer.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "This means that merely dividing a Consumer base based on location, such as whether they logged in from a computer in California, is not sufficient to determine Consumer status.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "The CCPA clarifies that the term 'Consumer' under its provisions applies broadly, encompassing all California residents as defined by state tax law.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "It is important to note that employees are also included within the definition of Consumer under the CCPA.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "In summary, a 'Consumer' is any California resident in a non-temporary capacity or one who is domiciled in California even if temporarily away.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_11": "This broad definition ensures that nearly all individuals within California, including employees, are protected under the CCPA."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_6": "A California resident, referred to as a 'Consumer' in the CCPA, is anyone who meets the definition of 'resident' as defined under the California tax provisions.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_33": "In general, the California tax provision defines a California resident as (i) every individual who is in California for other than a temporary or transitory purpose, and (ii) every individual who is domiciled in California but is outside California for a temporary or transitory purpose.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "Given this second prong, dividing a Consumer base between those who logged into a site from a computer in California and those who did not is not sufficient.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "Whether or not a purpose should be considered 'temporary or transitory in character' largely depends 'upon the facts and circumstances of each particular case.'",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "Businesses will likely adopt a broad approach to who is a Consumer.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "Content: Who Is a California Resident?",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "A California resident, referred to as a 'Consumer' in the CCPA, is defined under the California tax provisions. This broad definition covers individuals in California, except those who are there temporarily.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "Every individual domiciled in California is considered a resident, regardless of temporary absences.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "Employees are also included in the CCPA’s definition of a Consumer.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_11": "Businesses should assume that employees are also swept up in the CCPA’s requirements."
     }
   },
   {
     "question": "What constitutes 'Personal Information' under CCPA?",
-    "answer": "Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked with a particular consumer or household.",
+    "ground_truth_answer": "Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked with a particular consumer or household.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
@@ -421,26 +566,38 @@
       "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
     ],
     "document": "Cybersecurity_California_Privacy-with-image-refs",
-    "llm_response": "Under the CCPA, 'Personal Information' is defined very broadly. It includes any information that identifies, relates to, describes, or could be linked directly or indirectly to a particular consumer or household. This encompasses a wide variety of data types. For example, data points such as a consumer’s real name, alias, postal address, and unique personal identifier (which might be an online identifier like an IP address or cookie), as well as email addresses, account names, Social Security numbers, driver's license numbers, passport numbers and other similar identifiers, are all considered personal information. In addition, the definition extends to physical attributes (like signature or other physical characteristics), employment history, financial data (such as bank account details or credit card numbers), medical information, biometric data, geolocation data, internet or electronic network activity (including browsing and search histories), and any inferences drawn from these data points to develop a profile about a consumer’s preferences, characteristics, or behavior. Essentially, any single piece or combination of information that can be reasonably linked to an individual falls under 'Personal Information' according to the CCPA.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
+    ],
+    "llm_response": "Under the CCPA, 'Personal Information' is defined broadly as any information that identifies, relates to, describes, or can be reasonably linked, either directly or indirectly, to an individual consumer or household. This includes obvious identifiers like a real name, alias, postal address, online identifiers (such as an IP address or email address), social security number, driver’s license number, passport number, and similar identifiers. Beyond these, it also covers sensitive data such as financial, medical, and health insurance information, as well as digital footprints like browsing history and geolocation data. Essentially, if a piece of information (or combination thereof) can be associated with a particular consumer or household, it is considered Personal Information under the CCPA.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Definition of 'Personal Information': Information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "Examples include identifiers such as a real name, alias, postal address, unique personal identifier, online identifier, email address, account name, Social Security number, driver's license number, passport number, or other similar identifiers.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "Further examples of Personal Information extend to physical characteristics, employment history, bank account numbers, credit card numbers, debit card numbers, and financial information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "Additional data types include medical information, health insurance information, biometric data, and anything that might be used to create a profile of the consumer.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "Personal Information also covers data such as image-based information and signatures that can serve as unique identifiers.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "The definition encompasses information from various categories, any one match of which satisfies the definition.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "This broad definition means that even information like an email address that includes a full name and company name (e.g., John.Doe@Acme.com) could be considered personal information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "The interpretation is broad and can include any data linked directly or indirectly to a consumer or their household.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "It is important to note that the CCPA's definition is wider in scope compared to other regulations such as the GDPR.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "Overall, the definition is designed to capture a wide range of data types to ensure robust consumer privacy protections."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "What Is Personal Information? The CCPA defines Personal Information as information that identifies or can be linked to a particular consumer or household.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "It includes identifiers such as a real name, alias, postal address, unique personal identifier, online identifier, IP address, email address, and more.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "Even an email address that includes a full name could on its own qualify as Personal Information.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "The definition also encompasses sensitive data like financial information, medical records, and health insurance details.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "Any data element that could be reasonably linked to a specific individual, either on its own or in combination with other data, falls under this scope.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "This includes identifiers such as telephone numbers and physical characteristics.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "Even seemingly benign data can be classified as Personal Information if it can be linked to a consumer.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "This broad definition is vital as it forms the foundation for many CCPA requirements related to data collection, processing, and sharing.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "In summary, any information that is linked, directly or indirectly, to an individual consumer or household qualifies as Personal Information under the CCPA.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "Understanding this classification is key for businesses to appropriately manage and secure data as per CCPA guidelines."
     }
   },
   {
     "question": "What is 'selling' Personal Information under CCPA?",
-    "answer": "Selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating Personal Information for monetary or other valuable consideration.",
+    "ground_truth_answer": "Selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating Personal Information for monetary or other valuable consideration.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_5",
       "Cybersecurity_California_Privacy-with-image-refs_chunk_4",
@@ -453,26 +610,38 @@
       "Cybersecurity_California_Privacy-with-image-refs_chunk_13"
     ],
     "document": "Cybersecurity_California_Privacy-with-image-refs",
-    "llm_response": "Under the CCPA, “selling” Personal Information is generally understood as the act of transferring or disclosing a consumer’s Personal Information to a third party in exchange for valuable consideration. In other words, if a business provides a consumer’s Personal Information to another party (whether for a fee or some other form of benefit), that transfer is typically considered a sale of Personal Information. However, the CCPA also details a number of specific exceptions where such a transfer would not be classified as a sale – for example, when a consumer intentionally directs the business to share their information, when the information is used for a business purpose under a binding contract with a service provider (which restricts the further use, collection, or sale of the information), or when the transfer is part of a business transaction such as a merger or acquisition (provided that various disclosure requirements are met).",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_30",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17"
+    ],
+    "llm_response": "Under the CCPA, 'selling' Personal Information involves the transfer or disclosure of a consumer’s personal information to a third party in exchange for valuable consideration, unless one of several exceptions applies. These exceptions include cases where the consumer intentionally directs the disclosure, when the disclosure is made to alert a third party of a consumer’s opt‐out decision, when the information is shared to perform a 'business purpose' under specific conditions, or when the transfer occurs as part of a business transaction like a merger or acquisition with required disclosures. In the absence of one of these exceptions, such a transfer is considered a sale under the CCPA.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "The CCPA enumerates certain exceptions to what would be deemed a sale, including when: a Consumer uses or directs the Business to intentionally disclose Personal Information to a third party; when Personal Information is shared with a third party to perform a 'business purpose' (provided the proper notice is given and restrictions on further use apply); and when the Personal Information is part of an asset that changes control (e.g., via merger or acquisition) under specific conditions.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "Obligations if Personal Information Is Provided to a Service Provider: A business may provide Personal Information to a service provider only if the disclosure is for a business purpose pursuant to a written contract that restricts further use, collection, or sale of the Personal Information beyond that specific purpose.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "Age Restrictions: The CCPA imposes additional requirements for selling Personal Information when it concerns consumers under certain ages, such as needing affirmative opt-in consent for consumers between 13 and 16, and parental consent for those under age 13.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "What Is Personal Information?: The CCPA broadly defines Personal Information as any information that identifies, relates to, describes, or could reasonably be linked with a particular consumer or household.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_30": "Notice to Consumers: Businesses are required to provide a clear link titled 'Do Not Sell My Personal Information' on their homepage (or a California-specific homepage) to inform consumers about their opt-out rights regarding the sale of their Personal Information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "Create a Data Map: To comply with the CCPA, a business should maintain a data map that outlines what Personal Information is collected, its source, how it is used, stored, or sold, and other relevant details, thereby facilitating compliance with provisions related to the sale of Personal Information.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "The 'Business Purpose' Exception: While the sale of Personal Information involves transferring it for valuable consideration, certain disclosures undertaken for a business purpose are exempt from being defined as a sale, provided the consumer’s rights regarding opting out are not applicable.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "Right to Request Deletion of Information Collected From Consumer: Alongside controlling the sale of Personal Information, consumers have the right to request that a business delete the Personal Information collected about them, subject to certain exceptions.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "Summary of Information to Be Included in Privacy Policies: Businesses must include key details in their privacy policies, such as methods available for consumers to opt out of the sale of their Personal Information and a description of their rights under the CCPA.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "Private Right of Action: Although the CCPA does not broadly allow consumers to sue for violations outside of security breaches, it does provide a limited private right of action for unauthorized access leading to the theft or disclosure of certain types of Personal Information."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_10": "The CCPA enumerates certain exceptions to what would be deemed a sale, including when a Consumer uses or directs the Business to intentionally disclose Personal Information to a third party.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_36": "The exceptions also include when Personal Information is shared with a third party to perform a 'business purpose' (with conditions such as notice and limitations on further use).",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_31": "Another exception is when Personal Information is transferred as part of a merger, acquisition, bankruptcy, or similar transaction provided that proper disclosure requirements are met.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Absent these exceptions, transferring Personal Information in return for valuable consideration is considered a sale under the CCPA.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_30": "Additionally, there are age-related restrictions, particularly for consumers under certain ages, which may impact whether a sale is permitted without affirmative opt-in consent.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_19": "The definition of Personal Information under the CCPA is broad, encompassing identifiers such as names, addresses, online identifiers, and more.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_13": "In the context of the CCPA, a sale is defined as the transfer of Personal Information to a third party in exchange for valuable consideration.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_23": "When Personal Information is sold, the business must disclose the related categories of information in its privacy policy and provide consumers with opt-out rights.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_12": "The CCPA requires businesses to implement mechanisms such as a 'Do Not Sell My Personal Information' link to facilitate the consumer's ability to opt out of such transactions.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_17": "Ultimately, if no exception applies, transferring Personal Information for valuable consideration amounts to a sale under the provisions of the CCPA."
     }
   },
   {
     "question": "What does GDPR stand for?",
-    "answer": "General Data Protection Regulation",
+    "ground_truth_answer": "General Data Protection Regulation",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_1",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -485,26 +654,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "GDPR stands for the General Data Protection Regulation. It is the EU regulation that governs the protection of personal data and the free movement of such data within the European Union.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35",
+      "GDPR-with-image-refs_chunk_1",
+      "AI_ACT-with-image-refs_chunk_55",
+      "AI_ACT-with-image-refs_chunk_2",
+      "AI_ACT-with-image-refs_chunk_93",
+      "GDPR-with-image-refs_chunk_12",
+      "AI_ACT-with-image-refs_chunk_104",
+      "AI_ACT-with-image-refs_chunk_3"
+    ],
+    "llm_response": "GDPR stands for the General Data Protection Regulation. It is the regulatory framework established by the European Union to protect personal data and the privacy of individuals within the EU.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "What Is Personal Information? The CCPA requires businesses to assess whether they are collecting or processing personal information defined broadly under the law.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Compliance Recommendations include documentation and written agreements regarding Personal Information disclosures.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Further compliance recommendations focus on non-discrimination and review of business practices related to Personal Information.",
-      "GDPR-with-image-refs_chunk_1": "REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data (General Data Protection Regulation).",
-      "AI_ACT-with-image-refs_chunk_55": "Harmonised standards and standardisation deliverables for high-risk AI systems refer to compliance with EU regulations including data protection requirements.",
-      "AI_ACT-with-image-refs_chunk_2": "The Commission’s standardisation requests ensure that high-risk AI systems meet the obligations set out in EU regulations.",
-      "AI_ACT-with-image-refs_chunk_93": "Powers of authorities protecting fundamental rights include accessing documentation to enforce compliance with EU law, including data protection under GDPR.",
-      "GDPR-with-image-refs_chunk_12": "Definitions under the GDPR clarify that 'personal data' is any information relating to an identified or identifiable natural person, which forms the basis of its protection.",
-      "AI_ACT-with-image-refs_chunk_104": "SECTION 5 of the AI Act details supervision, investigation, enforcement and monitoring responsibilities in relation to providers of AI systems, linking cross-compliance with data protection regulations.",
-      "AI_ACT-with-image-refs_chunk_3": "(Text with EEA relevance) Under EU values and the internal market considerations, guidelines are established to ensure AI systems comply with fundamental rights, including those related to data protection."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Definition of Personal Information under the CCPA highlights identifiers and other data elements, which is analogous to the kind of personal data protected under GDPR.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Compliance recommendations stress that while some requirements may be met under GDPR, specific protocols might be needed to adhere to other privacy frameworks.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Additional guidance shows that similar principles of data protection are reflected differently under frameworks such as GDPR.",
+      "GDPR-with-image-refs_chunk_1": "GDPR refers to Regulation (EU) 2016/679 of the European Parliament and of the Council, which is the General Data Protection Regulation, protecting natural persons with regard to the processing of personal data.",
+      "AI_ACT-with-image-refs_chunk_55": "The context of harmonised standards for AI shows references to data protection, relating back to the stringent requirements under GDPR.",
+      "AI_ACT-with-image-refs_chunk_2": "The AI regulatory documents often compare or refer to GDPR standards when addressing personal data and privacy protection.",
+      "AI_ACT-with-image-refs_chunk_93": "Provisions ensuring oversight and documentation in AI systems also take cues from GDPR mandates in the area of data protection.",
+      "GDPR-with-image-refs_chunk_12": "Within the GDPR definitions, 'personal data' is carefully outlined, emphasizing the regulation's scope in protecting identifiable data.",
+      "AI_ACT-with-image-refs_chunk_104": "Sections on supervision and enforcement in AI regulations underscore the influence of GDPR principles in broader data protection strategies.",
+      "AI_ACT-with-image-refs_chunk_3": "References to automated decision-making and profiling in AI documents make cross-references to GDPR requirements, demonstrating its foundational role in data privacy."
     }
   },
   {
     "question": "When was GDPR adopted?",
-    "answer": "27 April 2016",
+    "ground_truth_answer": "27 April 2016",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_1",
       "GDPR-with-image-refs_chunk_121",
       "GDPR-with-image-refs_chunk_2",
@@ -517,26 +698,38 @@
       "GDPR-with-image-refs_chunk_9"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "The General Data Protection Regulation (GDPR) was adopted on 27 April 2016. This is confirmed by the text in the GDPR document (REGULATION (EU) 2016/679) which states it was adopted on 27 April 2016.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35",
+      "AI_ACT-with-image-refs_chunk_120",
+      "AI_ACT-with-image-refs_chunk_121",
+      "AI_ACT-with-image-refs_chunk_124",
+      "AI_ACT-with-image-refs_chunk_123",
+      "AI_ACT-with-image-refs_chunk_126",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_1",
+      "AI_ACT-with-image-refs_chunk_143",
+      "AI_ACT-with-image-refs_chunk_119"
+    ],
+    "llm_response": "The GDPR was adopted on 27 April 2016.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Compliance Recommendations: Businesses should review their practices relating to Personal Information to ensure they meet the necessary compliance requirements.",
-      "AI_ACT-with-image-refs_chunk_120": "Amendment to Regulation (EU) No 167/2013: This section discusses delegated acts concerning artificial intelligence systems which are safety components.",
-      "AI_ACT-with-image-refs_chunk_121": "Amendment to Regulation (EU) No 168/2013: This section adds provisions regarding artificial intelligence systems considered as safety components.",
-      "AI_ACT-with-image-refs_chunk_124": "Amendment to Regulation (EU) 2018/858: This section includes additional paragraphs regarding delegated acts for AI systems which are safety components.",
-      "AI_ACT-with-image-refs_chunk_123": "Amendment to Directive (EU) 2016/797: This section elaborates on delegated and implementing acts for artificial intelligence systems considered as safety components.",
-      "AI_ACT-with-image-refs_chunk_126": "Amendment to Regulation (EU) 2019/2144: This section adds provisions concerning artificial intelligence systems which are safety components.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Additional Compliance Recommendations: Guidance on tracking and documenting disclosures of Personal Information to third parties along with maintaining written agreements.",
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Compliance Recommendations: Businesses should review their business practices as it relates to Personal Information, and ensure that incentive programs do not violate nondiscrimination requirements.",
+      "AI_ACT-with-image-refs_chunk_120": "Amendment to Regulation (EU) No 167/2013: Added text referring to the requirements in Regulation (EU) 2024/1689.",
+      "AI_ACT-with-image-refs_chunk_121": "Amendment to Regulation (EU) No 168/2013: Added a subparagraph referring to Regulation (EU) 2024/1689.",
+      "AI_ACT-with-image-refs_chunk_124": "Amendment to Regulation (EU) 2018/858: Introduces a new paragraph referencing the take‑into‑account of Regulation (EU) 2024/1689.",
+      "AI_ACT-with-image-refs_chunk_123": "Amendment to Directive (EU) 2016/797: Added a paragraph to consider Regulation (EU) 2024/1689 requirements.",
+      "AI_ACT-with-image-refs_chunk_126": "Amendment to Regulation (EU) 2019/2144: Includes a paragraph ensuring that Chapter III, Section 2 of Regulation (EU) 2024/1689 is taken into account.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Compliance Recommendations: Advises tracking and documenting any disclosure of Personal Information to a third party and ensuring written agreements are in place.",
       "GDPR-with-image-refs_chunk_1": "REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.",
-      "AI_ACT-with-image-refs_chunk_143": "Schengen Information System: This section addresses the use of SIS for border checks and related provisions within the context of artificial intelligence and security.",
-      "AI_ACT-with-image-refs_chunk_119": "Amendment to Regulation (EC) No 300/2008: This section outlines the detailed measures related to technical specifications and procedures for approval and use of security equipment concerning AI systems."
+      "AI_ACT-with-image-refs_chunk_143": "Amendment to Regulation (EC) No 300/2008: Specifies that additional requirements related to technical specifications for AI systems must take into account Chapter III, Section 2 of Regulation (EU) 2024/1689.",
+      "AI_ACT-with-image-refs_chunk_119": "Amendment to Regulation (EC) No 300/2008: Includes further details on delegated acts concerning AI safety components referring to Regulation (EU) 2024/1689."
     }
   },
   {
     "question": "What is main objective of GDPR?",
-    "answer": "Protection of natural persons w.r.t processing of personal data.",
+    "ground_truth_answer": "Protection of natural persons w.r.t processing of personal data.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_1",
       "GDPR-with-image-refs_chunk_9",
       "GDPR-with-image-refs_chunk_2",
@@ -549,26 +742,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "The main objective of the GDPR is to safeguard the fundamental rights and freedoms of natural persons with regard to the processing of their personal data, while simultaneously ensuring that the free movement of personal data within the EU is not hindered. In other words, it establishes rules that protect individuals’ personal data and guarantees that data can move freely across the Union without restrictions that would compromise these protections.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "AI_ACT-with-image-refs_chunk_3",
+      "AI_ACT-with-image-refs_chunk_84",
+      "AI_ACT-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_9",
+      "AI_ACT-with-image-refs_chunk_76",
+      "GDPR-with-image-refs_chunk_100",
+      "AI_ACT-with-image-refs_chunk_11"
+    ],
+    "llm_response": "The main objective of the GDPR is to protect the fundamental rights and freedoms of natural persons with regard to the processing of their personal data, while at the same time ensuring that such data can move freely within the European Union. This is achieved by establishing rules that regulate how personal data is collected, processed, and transferred, thereby balancing individual privacy rights with the needs of a functioning internal market.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "[Not applicable to GDPR]",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "[Not applicable to GDPR]",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "[Not applicable to GDPR]",
-      "AI_ACT-with-image-refs_chunk_3": "[Not applicable to GDPR]",
-      "AI_ACT-with-image-refs_chunk_84": "[Not applicable to GDPR]",
-      "AI_ACT-with-image-refs_chunk_12": "[Not applicable to GDPR]",
-      "GDPR-with-image-refs_chunk_9": "This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.",
-      "AI_ACT-with-image-refs_chunk_76": "[Not applicable to GDPR]",
-      "GDPR-with-image-refs_chunk_100": "This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data. The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data.",
-      "AI_ACT-with-image-refs_chunk_11": "[Not applicable to GDPR]"
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Track and document any disclosure of Personal Information to a third party, and confirm that all such disclosures are for a business purpose.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Ensure that there is a written agreement with each such third party and that it explicitly limits the use of the Personal Information.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Businesses should review their business practices regarding Personal Information to ensure that they are not providing any incentives that would violate nondiscrimination requirements.",
+      "AI_ACT-with-image-refs_chunk_3": "The purpose of the AI Regulation is to improve the functioning of the internal market by establishing a uniform legal framework for AI systems.",
+      "AI_ACT-with-image-refs_chunk_84": "This Regulation promotes the uptake of human-centric and trustworthy AI while ensuring protection of health, safety, and fundamental rights.",
+      "AI_ACT-with-image-refs_chunk_12": "The definition of 'Personal Information' includes data that can be linked to an individual consumer or household.",
+      "GDPR-with-image-refs_chunk_9": "The GDPR lays down rules relating to the protection of natural persons with regard to the processing of personal data as well as rules ensuring the free movement of personal data within the Union.",
+      "AI_ACT-with-image-refs_chunk_76": "AI systems should be deployed in a manner that guarantees respect for fundamental rights and public interests.",
+      "GDPR-with-image-refs_chunk_100": "The main objective of the GDPR is to protect the fundamental rights and freedoms of natural persons concerning the processing of their personal data while facilitating its free movement within the EU.",
+      "AI_ACT-with-image-refs_chunk_11": "Providers of AI systems must ensure transparency and adherence to ethical standards in alignment with Union values."
     }
   },
   {
     "question": "What is a data subject?",
-    "answer": "Identified or identifiable natural person",
+    "ground_truth_answer": "Identified or identifiable natural person",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -581,26 +786,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "A data subject is the individual whose personal data is collected, processed, or otherwise handled by a data controller. The excerpts provided describe various rights that a data subject has — for instance, the right to rectification, access to their personal data, the right to object to processing, and the right to lodge a complaint with a supervisory authority — all of which apply to the person to whom the data relates. In essence, under the GDPR, the data subject is the person whose personal data is being processed and who is entitled to protections and rights regarding that data.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_26",
+      "GDPR-with-image-refs_chunk_25",
+      "GDPR-with-image-refs_chunk_100",
+      "GDPR-with-image-refs_chunk_23",
+      "GDPR-with-image-refs_chunk_32",
+      "GDPR-with-image-refs_chunk_21",
+      "GDPR-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_33",
+      "GDPR-with-image-refs_chunk_64"
+    ],
+    "llm_response": "A data subject is the individual whose personal data is collected, stored, or processed by a data controller, and who is entitled to exercise specific rights under data protection regulations (for example, rights to access, rectify, and object to data processing).",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_26": "Right to rectification: The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her.",
-      "GDPR-with-image-refs_chunk_25": "Right of access by the data subject: The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and related information.",
-      "GDPR-with-image-refs_chunk_100": "Representation of data subjects: The data subject shall have the right to mandate a not-for-profit body, organisation or association which is active in the field of the protection of data subjects' rights.",
-      "GDPR-with-image-refs_chunk_23": "Information to be provided where personal data are collected from the data subject: At the time personal data are obtained, the controller must provide the data subject with detailed information regarding the processing, including identity and contact details.",
-      "GDPR-with-image-refs_chunk_32": "Right to object: The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her.",
-      "GDPR-with-image-refs_chunk_21": "Right to lodge a complaint with a supervisory authority: Every data subject shall have the right to lodge a complaint with a supervisory authority in the event that they consider the processing of their personal data infringes on their rights.",
-      "GDPR-with-image-refs_chunk_97": "Right to restriction of processing: The data subject shall have the right to obtain from the controller restriction of processing in specific circumstances, such as when the accuracy of personal data is contested.",
-      "GDPR-with-image-refs_chunk_28": "Automated individual decision-making, including profiling: The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling.",
-      "GDPR-with-image-refs_chunk_33": "Rights of the data subject: This section encapsulates the various rights provided to data subjects under the GDPR.",
-      "GDPR-with-image-refs_chunk_64": "Derogations for specific situations: Conditions under which personal data may be transferred to a third country or international organisation, highlighting the protections in place for data subjects."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_26": "Right to rectification: The data subject shall have the right to obtain from the controller the rectification of inaccurate personal data concerning him or her.",
+      "GDPR-with-image-refs_chunk_25": "Right of access by the data subject: The data subject shall have the right to obtain confirmation whether personal data concerning him or her are being processed, and if so, to access that personal data and further information regarding its processing.",
+      "GDPR-with-image-refs_chunk_100": "Representation of data subjects: The data subject may mandate an organization to lodge complaints or exercise rights on his or her behalf.",
+      "GDPR-with-image-refs_chunk_23": "Information to be provided where personal data are collected: The data subject is provided with essential information about the data controller and the processing purposes at the time personal data is obtained.",
+      "GDPR-with-image-refs_chunk_32": "Right to object: The data subject has the right to object to the processing of personal data on grounds related to his or her particular situation.",
+      "GDPR-with-image-refs_chunk_21": "Right to lodge a complaint with a supervisory authority: The data subject shall have the right to lodge a complaint if processing of his or her personal data is believed to infringe the regulation.",
+      "GDPR-with-image-refs_chunk_97": "Right to restriction of processing: The data subject is entitled to request a restriction on the processing of personal data under certain circumstances.",
+      "GDPR-with-image-refs_chunk_28": "Automated individual decision-making, including profiling: The data subject shall have the right not to be subject solely to automated decisions which have legal or similarly significant effects.",
+      "GDPR-with-image-refs_chunk_33": "Rights of the data subject: This includes various rights such as access, rectification, objection, and data portability, among others.",
+      "GDPR-with-image-refs_chunk_64": "Additional context: The provided GDPR excerpts outline several key rights for data subjects, clearly establishing that the individual whose personal data is processed holds the status of a data subject."
     }
   },
   {
     "question": "What does 'processing' mean under GDPR?",
-    "answer": "Any operation performed on personal data",
+    "ground_truth_answer": "Any operation performed on personal data",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -613,26 +830,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Under the GDPR, \"processing\" means any operation or set of operations performed on personal data or on sets of personal data, whether or not by automated means. This includes a broad range of activities such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure, or destruction.",
+    "retrieved_chunk_ids": [
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_15",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35",
+      "GDPR-with-image-refs_chunk_19",
+      "GDPR-with-image-refs_chunk_10",
+      "GDPR-with-image-refs_chunk_109",
+      "GDPR-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_18"
+    ],
+    "llm_response": "Under the GDPR, 'processing' refers to any operation or set of operations performed on personal data or sets of personal data, regardless of whether it is carried out by automated means. This broadly covers activities such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or other forms of making available, alignment or combination, restriction, erasure, or destruction of personal data.",
     "is_relevant": true,
-    "citation": {
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "The context on personal information emphasizes the broad definition applied under privacy laws similar to GDPR.",
-      "GDPR-with-image-refs_chunk_12": "‘Processing’ means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "The guidelines for compliance highlight the importance of tracking operations on personal information, which ties back to the concept of processing.",
-      "GDPR-with-image-refs_chunk_15": "This chunk provides additional emphasis that processing covers all manners of operational activities performed on personal data, ensuring that even uncommon or manual operations are included.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Additional sections in the cybersecurity context reiterate that handling personal data comprehensively falls under the purview of processing.",
-      "GDPR-with-image-refs_chunk_19": "The GDPR details that processing encompasses every action undertaken on personal data, setting a framework for lawful data management.",
-      "GDPR-with-image-refs_chunk_10": "This part of the regulation clarifies that processing includes a range of operations from data collection to its eventual destruction.",
-      "GDPR-with-image-refs_chunk_109": "The explanation underscores that processing may involve both automated and manual methods, reinforcing the extensive scope of what activities are covered.",
-      "GDPR-with-image-refs_chunk_11": "It is specified that processing is not limited to digital methods but extends to any handling of personal data, ensuring full accountability for all data operations.",
-      "GDPR-with-image-refs_chunk_18": "This comprehensive overview reaffirms that every operation performed on personal data, regardless of the method, is considered processing under the GDPR."
+    "cited_chunk_ids": {
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "What Is Personal Information? - Although this section primarily defines personal information for the CCPA, it establishes context for how broadly information can be interpreted in privacy regulations.",
+      "GDPR-with-image-refs_chunk_12": "Definitions – 'processing' means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Compliance Recommendations – Guidance on handling personal information and ensuring proper documentation of disclosures to third parties; while specific to CCPA, it reflects the importance of carefully tracking data operations.",
+      "GDPR-with-image-refs_chunk_15": "Lawfulness of processing – This section outlines that processing must be lawful and sets forth conditions under which processing is permitted, reinforcing the strict interpretation under GDPR.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Additional Compliance Recommendations – Advises businesses on how to manage personal information and ensure nondiscriminatory practices, indirectly underscoring the thorough scope of data operations.",
+      "GDPR-with-image-refs_chunk_19": "Further definitions within GDPR elaborating on the necessary safeguards where processing extends to sensitive or special categories of personal data.",
+      "GDPR-with-image-refs_chunk_10": "Core GDPR Definitions – Introduces the key definitions including 'personal data' and 'processing', establishing the regulatory framework.",
+      "GDPR-with-image-refs_chunk_109": "Explanatory text on the principles for lawful processing, including considerations for subsequent operations on the collected data.",
+      "GDPR-with-image-refs_chunk_11": "Legal basis for processing – Specifies that any processing must be anchored in consent, contract, legal obligation, or other legal bases as set out by Union or Member State law.",
+      "GDPR-with-image-refs_chunk_18": "Criteria for further processing – Outlines factors to consider when processing data for purposes different from those originally collected, ensuring compatibility and safeguard of data subjects’ rights."
     }
   },
   {
     "question": "What is pseudonymisation?",
-    "answer": "Processing data so it can't be attributed to a subject w/o extra info.",
+    "ground_truth_answer": "Processing data so it can't be attributed to a subject w/o extra info.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_28",
       "GDPR-with-image-refs_chunk_38",
@@ -645,26 +874,38 @@
       "GDPR-with-image-refs_chunk_5"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Pseudonymisation is a data protection measure in which personal data is processed in such a way that it can no longer be attributed to a specific data subject without the use of additional information. In practice, this means replacing identifying fields within a data record with artificial identifiers or pseudonyms. This process helps to protect personal data by minimizing risks to the data subject while still allowing the data to be used for certain purposes, such as limited research, as long as re-identification is prevented by technical and organizational safeguards.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_38",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_14",
+      "GDPR-with-image-refs_chunk_18",
+      "GDPR-with-image-refs_chunk_14",
+      "GDPR-with-image-refs_chunk_110",
+      "GDPR-with-image-refs_chunk_105",
+      "GDPR-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_63",
+      "AI_ACT-with-image-refs_chunk_2",
+      "AI_ACT-with-image-refs_chunk_131"
+    ],
+    "llm_response": "Pseudonymisation is a technical measure that transforms personal data in such a way that it can no longer be attributed to a specific individual without the use of additional, separate information. This process is used to help protect data by reducing the risks associated with data processing, supporting principles such as data minimisation and ensuring that only the necessary personal data are processed for a given purpose.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_38": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing, the controller shall implement appropriate technical and organisational measures, such as pseudonymisation.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_14": "In the Research Exception, personal information may be subsequently pseudonymized and deidentified so that the data cannot reasonably be linked to an identified consumer.",
-      "GDPR-with-image-refs_chunk_18": "The controller shall implement appropriate technical and organisational measures such as pseudonymisation, which are designed to implement data‐protection principles.",
-      "GDPR-with-image-refs_chunk_14": "Measures such as pseudonymisation help ensure that only the personal data necessary for each specific purpose of processing are processed, minimizing the risk of unauthorized re-identification.",
-      "GDPR-with-image-refs_chunk_110": "Appropriate technical and organisational measures, including pseudonymisation, are required to integrate the necessary safeguards into processing in order to protect the rights of data subjects.",
-      "GDPR-with-image-refs_chunk_105": "Pseudonymisation is used to ensure that personal data are processed in line with the principle of data minimisation, limiting the extent of personal data collected and processed.",
-      "GDPR-with-image-refs_chunk_27": "Technical and organisational measures, like pseudonymisation, should be integrated into processing to limit the risks for the rights and freedoms of data subjects.",
-      "GDPR-with-image-refs_chunk_63": "Pseudonymisation forms part of the technical safeguards to protect data integrity and confidentiality during processing.",
-      "AI_ACT-with-image-refs_chunk_2": "The legislative proposals emphasize the integration of technical measures such as pseudonymisation to ensure data protection within AI systems.",
-      "AI_ACT-with-image-refs_chunk_131": "Pseudonymisation is highlighted within EU regulatory frameworks as a key measure to protect personal data while allowing for necessary processing."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_38": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks for rights and freedoms; the controller shall, both at the time of determining the means of processing and during processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, to effectively embed data-protection principles like data minimisation.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_14": "A Business may retain Personal Information despite a Consumer's valid deletion request when such retention is necessary to fulfill research objectives under defined conditions.",
+      "GDPR-with-image-refs_chunk_18": "Processing of special categories of personal data is generally prohibited unless specific exceptions apply, thereby necessitating strong technical measures such as pseudonymisation to protect individual rights.",
+      "GDPR-with-image-refs_chunk_14": "The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only necessary personal data are processed, which supports the use of measures like pseudonymisation.",
+      "GDPR-with-image-refs_chunk_110": "In the context of the right to erasure ('right to be forgotten'), technical measures, including pseudonymisation, may be used to protect data subject rights while balancing other processing needs.",
+      "GDPR-with-image-refs_chunk_105": "Member States may impose additional conditions or limitations on the processing of sensitive data, highlighting the importance of integrating measures such as pseudonymisation to safeguard data.",
+      "GDPR-with-image-refs_chunk_27": "Personal data should be processed lawfully, fairly, and in a transparent manner, with collection and processing limited to what is necessary—a principle that pseudonymisation supports by reducing the direct linkage to individual identities.",
+      "GDPR-with-image-refs_chunk_63": "The accountability principle requires that controllers are able to demonstrate compliance with data protection principles, including the effective implementation of measures like pseudonymisation.",
+      "AI_ACT-with-image-refs_chunk_2": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION, having regard to the Treaty on the Functioning of the EU, underscores the legislative emphasis on protecting individual rights through various technical measures.",
+      "AI_ACT-with-image-refs_chunk_131": "Union harmonisation legislation lists relevant directives and regulations that, among other aspects, support the implementation of data protection measures such as pseudonymisation."
     }
   },
   {
     "question": "What constitutes a \"filing system\"?",
-    "answer": "Any structured set of personal data accessible according to specific criteria.",
+    "ground_truth_answer": "Any structured set of personal data accessible according to specific criteria.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_10",
       "GDPR-with-image-refs_chunk_2",
@@ -677,26 +918,38 @@
       "GDPR-with-image-refs_chunk_9"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Under the GDPR, a ‘filing system’ is defined by its structured and systematic method of storing or organizing personal data. In this context, personal data that is processed – whether wholly or partly by automated means, or by other means – is considered to be part of a filing system (or intended to be part of one) when it is maintained in an organized manner that allows for easy retrieval and access. Essentially, if the data is incorporated into an organized set of records (for example, in a database or a systematically arranged collection), it falls under the definition of a filing system as per the Regulation.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_10",
+      "AI_ACT-with-image-refs_chunk_137",
+      "AI_ACT-with-image-refs_chunk_146",
+      "AI_ACT-with-image-refs_chunk_139",
+      "AI_ACT-with-image-refs_chunk_64",
+      "AI_ACT-with-image-refs_chunk_23",
+      "AI_ACT-with-image-refs_chunk_31",
+      "AI_ACT-with-image-refs_chunk_88",
+      "AI_ACT-with-image-refs_chunk_136",
+      "AI_ACT-with-image-refs_chunk_32"
+    ],
+    "llm_response": "In the GDPR context, a “filing system” refers to any organized collection of personal data—whether processed automatically or not—that is systematically arranged so that the data are accessible and can be retrieved. In other words, if personal data are or are intended to be part of a systematized filing system, then the provisions of the Regulation apply to their processing.",
     "is_relevant": true,
-    "citation": {
+    "cited_chunk_ids": {
       "GDPR-with-image-refs_chunk_10": "This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.",
-      "AI_ACT-with-image-refs_chunk_137": "Conformity based on an assessment of the quality management system and an assessment of the technical documentation is the conformity assessment procedure based on points 2 to 5.",
-      "AI_ACT-with-image-refs_chunk_146": "4. Entry/Exit System: Regulation (EU) 2017/2226 of the European Parliament and of the Council of 30 November 2017 establishes an Entry/Exit System (EES) to register entry and exit data of third-country nationals.",
-      "AI_ACT-with-image-refs_chunk_139": "3. Quality management system: The application requirements include documentation of the quality management system, detailed technical documentation for each AI system, and procedures to ensure the system’s ongoing adequacy and effectiveness.",
-      "AI_ACT-with-image-refs_chunk_64": "Registration: Before placing on the market or putting into service certain AI systems, the provider or the authorised representative must register themselves and the system in the EU database referred to in Article 71.",
-      "AI_ACT-with-image-refs_chunk_23": "Risk management system: A continuous, iterative process that involves identifying, analysing, and addressing risks related to the use of high-risk AI systems.",
-      "AI_ACT-with-image-refs_chunk_31": "Quality management system: Providers of high-risk AI systems are required to implement and document a quality management system that meets a range of technical and procedural requirements to ensure compliance.",
-      "AI_ACT-with-image-refs_chunk_88": "Post-market monitoring by providers: Establishment of a post-market monitoring system and plan to collect and analyse relevant data on the performance of high-risk AI systems throughout their lifecycle.",
-      "AI_ACT-with-image-refs_chunk_136": "Conformity assessment procedure based on internal control: The provider must verify that its quality management system complies with Article 17 and ensure that the technical documentation reflects that compliance.",
-      "AI_ACT-with-image-refs_chunk_32": "Documentation keeping: Providers are required to keep the technical documentation, quality management documentation, and related documents at the disposal of national competent authorities for 10 years after the AI system has been placed on the market or put into service."
+      "AI_ACT-with-image-refs_chunk_137": "Introduction: Conformity based on an assessment of the quality management system and an assessment of the technical documentation is the conformity assessment procedure based on points 2 to 5.",
+      "AI_ACT-with-image-refs_chunk_146": "4. Entry/Exit System: Regulation (EU) 2017/2226 establishes an Entry/Exit System (EES) to register entry, exit, and refusal of entry data for third-country nationals.",
+      "AI_ACT-with-image-refs_chunk_139": "3. Quality management system: Outlines requirements including provider details, technical documentation, and ongoing system adequacy in compliance with Article 17.",
+      "AI_ACT-with-image-refs_chunk_64": "Registration: Covers the obligations for providers and, where applicable, authorised representatives to register their systems in the EU database, including high-risk AI systems.",
+      "AI_ACT-with-image-refs_chunk_23": "Risk management system: Emphasizes the establishment, documentation, and continuous review of risk management measures for high-risk AI systems.",
+      "AI_ACT-with-image-refs_chunk_31": "Quality management system: Mandates that providers of high-risk AI systems implement documented policies, procedures, and controls to ensure compliance with the Regulation.",
+      "AI_ACT-with-image-refs_chunk_88": "Post-market monitoring: Requires providers to set up a monitoring system that gathers and assesses data on the performance of high-risk AI systems throughout their lifecycle.",
+      "AI_ACT-with-image-refs_chunk_136": "Conformity assessment procedure based on internal control: Specifies that providers must verify that their quality management system and technical documentation comply with the Regulation.",
+      "AI_ACT-with-image-refs_chunk_32": "Documentation keeping: Details the obligation to retain technical and quality management documentation for a period of up to 10 years after a high-risk AI system has been placed on the market."
     }
   },
   {
     "question": "Who is a 'controller' under GDPR?",
-    "answer": "Person or body determining the purposes and means of processing.",
+    "ground_truth_answer": "Person or body determining the purposes and means of processing.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -709,26 +962,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Based on the provided context, a 'controller' is mentioned as the party bearing responsibility for implementing appropriate technical and organisational measures to ensure that processing is performed in accordance with the GDPR, as well as maintaining records of processing activities and facilitating cooperation with the supervisory authority. However, the context does not provide a formal definition of a controller (i.e. the natural or legal person, public authority, agency or other body that, alone or jointly with others, determines the purposes and means of processing). In summary, while the context details the responsibilities and obligations of the controller, it does not define who a controller is.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_44",
+      "GDPR-with-image-refs_chunk_42",
+      "GDPR-with-image-refs_chunk_53",
+      "GDPR-with-image-refs_chunk_43",
+      "GDPR-with-image-refs_chunk_75",
+      "GDPR-with-image-refs_chunk_50",
+      "GDPR-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_54",
+      "GDPR-with-image-refs_chunk_81",
+      "GDPR-with-image-refs_chunk_102"
+    ],
+    "llm_response": "The excerpts provided do not include an explicit definition of a 'controller.' However, based on the context of these excerpts, a controller is the entity (which can be a natural or legal person, a public authority, agency, or other body) that determines the purposes and means of processing personal data. The controller is responsible for implementing appropriate technical and organizational measures to ensure that data processing complies with GDPR, maintaining records of processing activities, cooperating with supervisory authorities, and supporting the data protection officer. In other words, the controller is the key decision-maker regarding why and how personal data are processed under GDPR, and they bear significant compliance obligations.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_44": "Responsibility of the controller: Taking into account the nature, scope, context and purposes of processing as well as the risks for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this Regulation.",
-      "GDPR-with-image-refs_chunk_42": "Processing under the authority of the controller or processor: The processor and any person acting under the authority of the controller shall not process those data except on instructions from the controller, unless required to do so by law.",
-      "GDPR-with-image-refs_chunk_53": "Cooperation with the supervisory authority: The controller and processor shall cooperate, on request, with the supervisory authority in the performance of its tasks.",
-      "GDPR-with-image-refs_chunk_43": "Position of the data protection officer: The controller shall support the data protection officer by providing necessary resources and ensuring adequate involvement in matters related to the protection of personal data.",
-      "GDPR-with-image-refs_chunk_75": "Records of processing activities: Each controller shall maintain a record of processing activities including details such as the purposes of processing, categories of data subjects, and technical and organisational measures.",
-      "GDPR-with-image-refs_chunk_50": "Powers: Supervisory authorities have investigative, corrective, and advisory powers, including obtaining access to all personal data held by the controller.",
-      "GDPR-with-image-refs_chunk_37": "Prior consultation: The controller shall consult the supervisory authority prior to processing in cases where a data protection impact assessment indicates a high risk.",
-      "GDPR-with-image-refs_chunk_54": "Tasks of the data protection officer: The data protection officer is tasked with informing and advising the controller on obligations under the Regulation, among other responsibilities.",
-      "GDPR-with-image-refs_chunk_81": "Joint operations of supervisory authorities: In cases where processing affects data subjects in multiple Member States, supervisory authorities may conduct joint operations, involving the controller in their investigations.",
-      "GDPR-with-image-refs_chunk_102": "Right to compensation and liability: Any controller involved in processing shall be liable for the damage caused by processing that infringes the GDPR, reinforcing the controller's responsibility in ensuring compliance."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_44": "Cooperation with the supervisory authority: The controller and the processor shall cooperate with the supervisory authority when requested.",
+      "GDPR-with-image-refs_chunk_42": "Processing under the authority of the controller: Persons acting under the authority of the controller shall not process personal data except on instructions from the controller.",
+      "GDPR-with-image-refs_chunk_53": "Position of the data protection officer: The controller must ensure that the data protection officer is properly involved and supported in all issues relating to the protection of personal data.",
+      "GDPR-with-image-refs_chunk_43": "Records of processing activities: Each controller is required to maintain a record of processing activities, which includes the purposes of processing and details about the personal data handled.",
+      "GDPR-with-image-refs_chunk_75": "Responsibility of the controller: The controller shall implement appropriate technical and organisational measures to ensure processing is performed in accordance with GDPR and demonstrate compliance.",
+      "GDPR-with-image-refs_chunk_50": "Tasks of the data protection officer: The officer advises and assists the controller in complying with GDPR obligations.",
+      "GDPR-with-image-refs_chunk_37": "Prior consultation: Controllers are required to consult with supervisory authorities when a data protection impact assessment indicates high risk.",
+      "GDPR-with-image-refs_chunk_54": "Powers: Supervisory authorities have various powers to investigate and ensure that controllers comply with the regulation.",
+      "GDPR-with-image-refs_chunk_81": "Joint operations of supervisory authorities: When controllers operate in several Member States, supervisory authorities may conduct joint operations.",
+      "GDPR-with-image-refs_chunk_102": "Right to compensation and liability: Controllers are held liable for damages caused by processing that infringes GDPR provisions."
     }
   },
   {
     "question": "Define \"processor\" in GDPR context.",
-    "answer": "Natural or legal person processing data on behalf of the controller.",
+    "ground_truth_answer": "Natural or legal person processing data on behalf of the controller.",
     "difficulty": "easy",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_41",
       "GDPR-with-image-refs_chunk_42",
@@ -741,26 +1006,38 @@
       "GDPR-with-image-refs_chunk_6"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "In the GDPR context, a processor is an entity (or individual) that processes personal data on behalf of a controller. This means that the processor carries out data processing activities strictly based on the instructions provided by the controller, and does not determine the purposes or means of the processing. Additionally, the processor must implement appropriate technical and organisational measures to ensure data security, may not subcontract processing to another processor without the controller’s prior written authorisation, and is bound by a contract or other legal act that sets out the details of the processing, including its duration, nature, purpose, the type of personal data involved, and the respective obligations and rights of the controller and processor.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_11",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_46",
+      "GDPR-with-image-refs_chunk_41",
+      "GDPR-with-image-refs_chunk_42",
+      "GDPR-with-image-refs_chunk_4",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_49",
+      "GDPR-with-image-refs_chunk_44",
+      "GDPR-with-image-refs_chunk_101"
+    ],
+    "llm_response": "In the GDPR context, a processor is defined as a natural or legal person, public authority, agency, or other body that processes personal data on behalf of a controller. The processor acts only on the controller’s documented instructions and must implement appropriate technical and organisational measures to ensure that the processing meets the requirements and protects the rights of data subjects. Moreover, a processor is bound by contractual or other legal acts that stipulate the scope, nature, and purpose of the processing, the categories of data involved, and the respective obligations and rights of both the controller and the processor. For instance, a processor may not engage another processor without the controller’s prior written authorization, and it must ensure the confidentiality and security of the personal data it processes.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_11": "Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Compliance recommendations emphasize the importance of having written agreements with any third party handling personal data, which aligns with the GDPR’s requirements for processors.",
-      "GDPR-with-image-refs_chunk_46": "The processor shall not engage another processor without prior specific or general written authorisation of the controller.",
-      "GDPR-with-image-refs_chunk_41": "The processor is expected to implement appropriate technical and organisational measures, ensuring ongoing confidentiality, integrity, availability and resilience of processing systems.",
-      "GDPR-with-image-refs_chunk_42": "Processing by a processor shall be governed by a contract or other legal act that sets out the subject-matter, duration, nature and purpose of the processing, the type of personal data and the obligations and rights of the controller.",
-      "GDPR-with-image-refs_chunk_4": "Additional details outline that a processor must only act on documented instructions from the controller, except where required by law.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Although derived from CCPA compliance guidelines, this information underscores the need for explicit agreements that limit the use of personal information, a principle also reflected in GDPR for processors.",
-      "GDPR-with-image-refs_chunk_49": "It is made clear that a processor may only process personal data under the instructions of the controller.",
-      "GDPR-with-image-refs_chunk_44": "Processors must take steps to ensure that any person processing data under their authority does so only on the instructions from the controller, barring any legal obligation to do otherwise.",
-      "GDPR-with-image-refs_chunk_101": "Contractual agreements with processors must detail the processor’s responsibilities, including the security measures and steps required to ensure compliance with this Regulation."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_11": "Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject. The processor shall not engage another processor without prior specific or general written authorisation of the controller. In the case of general written authorisation, the processor shall inform the controller of any intended changes concerning the addition or replacement of other processors, thereby giving the controller the opportunity to object to such changes. Processing by a processor shall be governed by a contract or other legal act under Union or Member State law, that is binding on the processor with regard to the controller and that sets out the subject-matter and duration of the processing, the nature and purpose of the processing, the type of personal data and categories of data subjects and the obligations and rights of the controller.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Compliance Recommendations: Ensure that there is a written agreement with any third party to limit the use of Personal Information to providing specified services to the Business. This underscores the importance of contractual safeguards, a requirement that parallels the strict contractual obligations imposed on processors under the GDPR.",
+      "GDPR-with-image-refs_chunk_46": "Security of Processing: Controllers and processors must implement appropriate technical and organisational measures—such as pseudonymisation, encryption, and ensuring the confidentiality, integrity, availability, and resilience of processing systems—to protect personal data.",
+      "GDPR-with-image-refs_chunk_41": "Territorial Scope: This Regulation applies to the processing of personal data in the context of the activities of an establishment in the Union, highlighting the wide geographical reach of GDPR obligations.",
+      "GDPR-with-image-refs_chunk_42": "Extended Territorial Scope: The processing of personal data of data subjects in the Union by a controller or processor not established in the Union is also covered when the processing activities concern offering goods or services to such subjects or monitoring their behaviour.",
+      "GDPR-with-image-refs_chunk_4": "Overview: The GDPR sets stringent requirements for the processing of personal data, emphasizing accountability and the protection of data subjects’ rights.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Personal Information Definition under CCPA: Although broader in some respects than the GDPR, it includes identifiers such as names, unique personal identifiers, email addresses, and other personal data points. This comparison highlights the emphasis on precise definitions and safeguards in data processing contexts.",
+      "GDPR-with-image-refs_chunk_49": "Processor Obligations: The GDPR requires processors to act strictly on the documented instructions of the controller and imposes contractual obligations to detail the nature, purpose, and scope of processing, as well as ensuring adequate security measures are in place.",
+      "GDPR-with-image-refs_chunk_44": "Contractual Safeguards: A binding contract or legal act must govern the processor’s activities, setting out the responsibilities, duration, and conditions under which personal data are processed, including clauses related to confidentiality and data protection obligations.",
+      "GDPR-with-image-refs_chunk_101": "Controller versus Processor Distinction: The Regulation clarifies that if a processor determines the purposes and means of processing, it may be considered a controller with respect to that processing, underscoring the importance of adhering to the defined roles and contractual boundaries."
     }
   },
   {
     "question": "What does data concerning health include?",
-    "answer": "Data pertaining to past, current, or future physical or mental health status.",
+    "ground_truth_answer": "Data pertaining to past, current, or future physical or mental health status.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_18",
@@ -773,26 +1050,38 @@
       "GDPR-with-image-refs_chunk_9"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Data concerning health generally refers to any information regarding the physical or mental health of an individual. This can include information about an individual’s health status, details such as medical history, diagnoses, treatments, and any other data that can reveal the health condition of a natural person. In public health contexts, it also covers elements such as morbidity, disability, health care needs, resources allocated to health care, the provision and universal access to health care, health care expenditure, financing and even the causes of mortality.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_18",
+      "GDPR-with-image-refs_chunk_108",
+      "GDPR-with-image-refs_chunk_3",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8",
+      "AI_ACT-with-image-refs_chunk_7",
+      "GDPR-with-image-refs_chunk_26",
+      "AI_ACT-with-image-refs_chunk_12",
+      "GDPR-with-image-refs_chunk_33",
+      "AI_ACT-with-image-refs_chunk_28",
+      "AI_ACT-with-image-refs_chunk_3"
+    ],
+    "llm_response": "Data concerning health includes any information that relates to the physical or mental health status of an individual. For example, it covers details found in medical records such as diagnoses, examination and test results, assessments by treating physicians, as well as any treatments or interventions provided. This type of data is used to understand and verify the individual’s health status and is subject to specific protections under data protection regulations.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_18": "For reasons of public interest in the areas of public health, 'public health' is defined to include all elements related to health – namely health status (including morbidity and disability), the determinants having an effect on that health status, health care needs, resources allocated to health care, the provision of and universal access to health care, as well as health care expenditure and financing, and the causes of mortality.",
-      "GDPR-with-image-refs_chunk_108": "Processing of personal data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited except in certain specific situations.",
-      "GDPR-with-image-refs_chunk_3": "Processing of special categories of personal data includes the processing of personal data concerning health, among other highly sensitive data.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "Although the Cybersecurity California Privacy context does not directly define 'data concerning health', it provides guidance on the treatment of sensitive personal information and highlights the importance of protecting health-related personal data.",
-      "AI_ACT-with-image-refs_chunk_7": "In the context of AI and data processing, special categories of personal data, such as data concerning health, require additional safeguards to ensure privacy and compliance with regulatory standards.",
-      "GDPR-with-image-refs_chunk_26": "Data concerning health is a special category of personal data that requires special protection under the GDPR, as processing such data can lead to significant impacts on the rights and freedoms of natural persons.",
-      "AI_ACT-with-image-refs_chunk_12": "Although not elaborated in detail in the AI Act excerpts provided, data concerning health remains a highly sensitive category that must be handled in compliance with existing data protection laws such as the GDPR.",
-      "GDPR-with-image-refs_chunk_33": "The regulation specifies that personal data concerning health may be processed for specific purposes, ensuring safeguards are in place to protect individual rights.",
-      "AI_ACT-with-image-refs_chunk_28": "The AI Act context reinforces that when processing sensitive data—including health data—appropriate measures such as anonymisation and encryption should be considered.",
-      "AI_ACT-with-image-refs_chunk_3": "In the overall context of AI regulation, the processing of special categories of personal data, including data concerning health, is subject to strict conditions to mitigate risks to fundamental rights."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_18": "Processing of personal data revealing ... data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited unless certain conditions apply.",
+      "GDPR-with-image-refs_chunk_108": "Every data subject should have the right to know and obtain communication regarding the purposes of processing, including the right to access data concerning their health, for example, the data in their medical records containing information such as diagnoses, examination results, assessments by treating physicians and any treatment or interventions provided.",
+      "GDPR-with-image-refs_chunk_3": "Processing of special categories of personal data, including data concerning health, is subject to stringent requirements to protect fundamental rights.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_8": "‘Health insurance information’ is defined as any information in a consumer's claims history or insurance application that is linked to the consumer’s health data.",
+      "AI_ACT-with-image-refs_chunk_7": "For example, in health, the European health data space will facilitate non-discriminatory access to health data and the training of AI algorithms on such datasets, ensuring privacy-preserving measures.",
+      "GDPR-with-image-refs_chunk_26": "The data subject shall have the right to obtain from the controller the rectification of inaccurate personal data, including data concerning health.",
+      "AI_ACT-with-image-refs_chunk_12": "The purpose of this Regulation is to improve the functioning of the internal market while ensuring a high level of protection of health, safety, and fundamental rights.",
+      "GDPR-with-image-refs_chunk_33": "Data concerning health are personal data related to the physical or mental condition of an individual, which can include records of diagnoses, assessments, and treatments.",
+      "AI_ACT-with-image-refs_chunk_28": "The right to privacy and to the protection of personal data must be guaranteed throughout the entire lifecycle of an AI system, including when processing health data.",
+      "AI_ACT-with-image-refs_chunk_3": "This Regulation supports measures to ensure that the processing of special categories of personal data, including health data, is performed in a manner that is privacy-preserving and transparent."
     }
   },
   {
     "question": "What are \"biometric data\" under GDPR?",
-    "answer": "Data from specific technical processing relating to physical, physiological or behavioural characteristics allowing identification.",
+    "ground_truth_answer": "Data from specific technical processing relating to physical, physiological or behavioural characteristics allowing identification.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -805,26 +1094,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "Under the GDPR, “biometric data” means personal data resulting from specific technical processing related to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person. For example, this includes facial images and dactyloscopic (fingerprint) data.",
+    "retrieved_chunk_ids": [
+      "AI_ACT-with-image-refs_chunk_145",
+      "GDPR-with-image-refs_chunk_18",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9",
+      "AI_ACT-with-image-refs_chunk_133",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_12",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35",
+      "GDPR-with-image-refs_chunk_14",
+      "GDPR-with-image-refs_chunk_27"
+    ],
+    "llm_response": "Under the GDPR, “biometric data” is defined as personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person. For example, this includes facial images or dactyloscopic (fingerprint) data.",
     "is_relevant": true,
-    "citation": {
-      "AI_ACT-with-image-refs_chunk_145": "3. Eurodac Regulation excerpt – while not directly about biometric data under the GDPR, it is part of the overall regulatory context.",
-      "GDPR-with-image-refs_chunk_18": "Processing of special categories of personal data excerpt which sets the backdrop for strict rules around biometric data.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "Privacy framework context that underscores the importance of protecting biometric data.",
-      "AI_ACT-with-image-refs_chunk_133": "Additional Eurodac regulatory details, highlighting biometric comparisons.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Context on definitions and data processing, relevant to understanding biometric data.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "Discussion on high-risk AI systems including those that process biometric data.",
-      "GDPR-with-image-refs_chunk_12": "‘Biometric data’ means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data.",
-      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Excerpt related to how deidentified data is treated, drawing contrasts to biometric data.",
-      "GDPR-with-image-refs_chunk_14": "Definition of personal data under the GDPR, with biometric data as a specific category.",
-      "GDPR-with-image-refs_chunk_27": "Additional details on the processing and scope of personal data, reinforcing the treatment of biometric data under the GDPR."
+    "cited_chunk_ids": {
+      "AI_ACT-with-image-refs_chunk_145": "Eurodac Regulation (EU) 2024/1358 of the European Parliament and of the Council of 14 May 2024 on the establishment of 'Eurodac' aimed at comparing biometric data for identifying illegally staying third-country nationals and stateless persons.",
+      "GDPR-with-image-refs_chunk_18": "Processing of special categories of personal data includes data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, and biometric data used for uniquely identifying a natural person.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_9": "Information that is publicly available is not considered Personal Information under certain conditions in the CCPA, although biometric information collected without a consumer’s knowledge is not deemed publicly available.",
+      "AI_ACT-with-image-refs_chunk_133": "The Eurodac regulation also amends previous regulations and repeals Regulation (EU) No 603/2013, underscoring the importance of biometric data in border and asylum management.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_7": "Within the CCPA framework, biometric information that is collected without the consumer's knowledge is treated differently and is not considered publicly available.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_37": "High-risk AI systems in EU legislation include those that perform biometric categorisation and remote biometric identification, highlighting specific uses of biometric data under law.",
+      "GDPR-with-image-refs_chunk_12": "For the purposes of the GDPR, 'personal data' encompasses any information relating to an identified or identifiable natural person, including biometric data when processed in a manner that confirms the individual’s identity.",
+      "Cybersecurity_California_Privacy-with-image-refs_chunk_35": "Compliance recommendations under privacy laws emphasize the importance of tracking disclosures of personal information and ensuring that any transmission is aligned with strict regulatory purposes.",
+      "GDPR-with-image-refs_chunk_14": "‘Biometric data’ means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data.",
+      "GDPR-with-image-refs_chunk_27": "The GDPR also outlines the right to erasure, which requires controllers to erase personal data, including biometric data, when certain conditions are met."
     }
   },
   {
     "question": "How is \"main establishment\" defined for a controller?",
-    "answer": "Place of central administration in the EU, unless decisions about data processing are taken elsewhere with implementation power.",
+    "ground_truth_answer": "Place of central administration in the EU, unless decisions about data processing are taken elsewhere with implementation power.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_2",
       "GDPR-with-image-refs_chunk_3",
@@ -837,26 +1138,38 @@
       "GDPR-with-image-refs_chunk_10"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "The provided context mentions the term “main establishment” when describing which supervisory authority has competence over a controller’s or processor’s cross-border processing (i.e. the supervisory authority of the main establishment or of the single establishment is to act as lead supervisory authority). However, the context does not include a specific definition or criteria for what constitutes a ‘main establishment’ for a controller.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_73",
+      "GDPR-with-image-refs_chunk_11",
+      "GDPR-with-image-refs_chunk_32",
+      "GDPR-with-image-refs_chunk_40",
+      "GDPR-with-image-refs_chunk_81",
+      "GDPR-with-image-refs_chunk_57",
+      "GDPR-with-image-refs_chunk_110",
+      "AI_ACT-with-image-refs_chunk_13",
+      "GDPR-with-image-refs_chunk_37",
+      "GDPR-with-image-refs_chunk_52"
+    ],
+    "llm_response": "Based solely on the provided context, there is no detailed definition of the term “main establishment” for a controller. The text only specifies that the supervisory authority of the main establishment (or of the single establishment) of the controller or processor shall act as the lead supervisory authority for cross-border processing. No further clarification or definition is provided in the excerpts.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_73": "Without prejudice to Article 55, the supervisory authority of the main establishment or of the single establishment of the controller or processor shall be competent to act as lead supervisory authority for the cross-border processing carried out by that controller or processor.",
-      "GDPR-with-image-refs_chunk_11": "By derogation from paragraph 1, each supervisory authority shall be competent to handle a complaint lodged with it or a possible infringement of this Regulation, if the subject matter relates only to an establishment in its Member State or substantially affects data subjects only in its Member State.",
-      "GDPR-with-image-refs_chunk_32": "In the cases referred to in paragraph 2 of this Article, the supervisory authority shall inform the lead supervisory authority without delay on that matter. Within a period of three weeks after being informed the lead supervisory authority shall decide whether or not it will handle the case in accordance with the procedure provided in Article 60.",
-      "GDPR-with-image-refs_chunk_40": "Where the lead supervisory authority decides to handle the case, the procedure provided in Article 60 shall apply. The supervisory authority which informed the lead supervisory authority may submit to the lead supervisory authority a draft for a decision. The lead supervisory authority shall take utmost account of that draft when preparing the draft decision referred to in Article 60(3).",
-      "GDPR-with-image-refs_chunk_81": "Where the lead supervisory authority decides not to handle the case, the supervisory authority which informed the lead supervisory authority shall handle it according to Articles 61 and 62.",
-      "GDPR-with-image-refs_chunk_57": "The lead supervisory authority shall be the sole interlocutor of the controller or processor for the cross-border processing carried out by that controller or processor.",
-      "GDPR-with-image-refs_chunk_110": "This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not.",
-      "AI_ACT-with-image-refs_chunk_13": "This Regulation applies to: (a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country; (b) deployers of AI systems that have their place of establishment or are located within the Union; (c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the AI system is used in the Union; (d) importers and distributors of AI systems; (e) product manufacturers placing on the market or putting into service an AI system together with their product and under their own name or trademark; (f) authorised representatives of providers, which are not established in the Union; (g) affected persons that are located in the Union.",
-      "GDPR-with-image-refs_chunk_37": "This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to the offering of goods or services to such data subjects in the Union, or the monitoring of their behaviour as far as their behaviour takes place within the Union.",
-      "GDPR-with-image-refs_chunk_52": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_73": "Without prejudice to Article 55, the supervisory authority of the main establishment or of the single establishment of the controller or processor shall be competent to act as lead supervisory authority for the cross-border processing carried out by that controller or processor in accordance with the procedure provided in Article 60. By derogation from paragraph 1, each supervisory authority shall be competent to handle a complaint lodged with it or a possible infringement of this Regulation, if the subject matter relates only to an establishment in its Member State or substantially affects data subjects only in its Member State. In the cases referred to in paragraph 2 of this Article, the supervisory authority shall inform the lead supervisory authority without delay on that matter. Within a period of three weeks after being informed the lead supervisory authority shall decide whether or not it will handle the case in accordance with the procedure provided in Article 60, taking into account whether or not there is an establishment of the controller or processor in the Member State of which the supervisory authority informed it. When the lead supervisory authority decides to handle the case, the procedure provided in Article 60 shall apply. The supervisory authority which informed the lead supervisory authority may submit to the lead supervisory authority a draft for a decision. The lead supervisory authority shall take utmost account of that draft when preparing the draft decision referred to in Article 60(3). Where the lead supervisory authority decides not to handle the case, the supervisory authority which informed the lead supervisory authority shall handle it according to Articles 61 and 62. The lead supervisory authority shall be the sole interlocutor of the controller or processor for the cross-border processing carried out by that controller or processor.",
+      "GDPR-with-image-refs_chunk_11": "This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not. It also applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to: (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.",
+      "GDPR-with-image-refs_chunk_32": "The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to the processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or for the establishment, exercise or defence of legal claims. Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing, which includes profiling to the extent that it is related to such direct marketing. Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be processed for such purposes. At the latest at the time of the first communication with the data subject, the right referred to in these provisions shall be explicitly brought to the attention of the data subject and shall be presented clearly and separately from any other information.",
+      "GDPR-with-image-refs_chunk_40": "Where Article 3(2) applies, the controller or the processor shall designate in writing a representative in the Union. The obligation laid down in paragraph 1 of this Article shall not apply to: (a) processing which is occasional, does not include, on a large scale, processing of special categories of data as referred to in Article 9(1) or processing of personal data relating to criminal convictions and offences as referred to in Article 10, and is unlikely to result in a risk to the rights and freedoms of natural persons, taking into account the nature, context, scope and purposes of the processing; or (b) a public authority or body. The representative shall be established in one of the Member States where the data subjects, whose personal data are processed in relation to the offering of goods or services to them, or whose behaviour is monitored, are located. The representative shall be mandated by the controller or processor to be addressed in addition to or instead of the controller or the processor by, in particular, supervisory authorities and data subjects on all issues related to processing, for the purposes of ensuring compliance with this Regulation. The designation of a representative by the controller or processor shall be without prejudice to legal actions which could be initiated against the controller or the processor themselves.",
+      "GDPR-with-image-refs_chunk_81": "The supervisory authorities shall, where appropriate, conduct joint operations including joint investigations and joint enforcement measures in which members or staff of the supervisory authorities of other Member States are involved. Where the controller or processor has establishments in several Member States or where a significant number of data subjects in more than one Member State are likely to be substantially affected by processing operations, a supervisory authority of each of those Member States shall have the right to participate in joint operations. The supervisory authority which is competent pursuant to Article 56(1) or (4) shall invite the supervisory authority of each of those Member States to take part in the joint operations and shall respond without delay to the request of a supervisory authority to participate. A supervisory authority may, in accordance with Member State law and with the seconding supervisory authority's authorisation, confer powers, including investigative powers on the seconding supervisory authority's members or staff involved in joint operations or, insofar as the law permits, allow them to exercise their investigative powers under the host Member State's law. Where staff of a seconding supervisory authority operate in another Member State, the host Member State shall assume responsibility for their actions, including liability for any damage caused, in accordance with its law. The Member State in whose territory damage was caused shall make good such damage under the applicable conditions, and the Member State of the seconding supervisory authority shall reimburse the other Member State for sums paid to those entitled on their behalf, without prejudice to the rights vis-à-vis third parties.",
+      "GDPR-with-image-refs_chunk_57": "The Member States, the supervisory authorities, the Board and the Commission shall encourage, in particular at Union level, the establishment of data protection certification mechanisms and of data protection seals and marks, for the purpose of demonstrating compliance with this Regulation by controllers and processors. The specific needs of micro, small and medium-sized enterprises shall be taken into account. In addition to the adherence by controllers or processors subject to this Regulation, data protection certification mechanisms, seals or marks approved pursuant to paragraph 5 of this Article may be established for demonstrating the existence of appropriate safeguards provided by controllers or processors that are not subject to this Regulation under Article 3, within the framework of personal data transfers to third countries or international organisations. Such certification does not reduce the responsibility of the controller or processor for compliance with this Regulation and is without prejudice to the tasks and powers of the supervisory authorities. A certification pursuant to this Article shall be issued for a maximum period of three years and may be renewed, provided that the relevant requirements continue to be met, and withdrawn if such requirements are no longer met. The Board shall collate all certification mechanisms and data protection seals and marks in a register which shall be made publicly available by any appropriate means.",
+      "GDPR-with-image-refs_chunk_110": "Member States may adopt specific rules to set out the powers of the supervisory authorities referred to in points (e) and (f) of Article 58(1) in relation to controllers or processors that are subject, under Union or Member State law or rules established by national competent bodies, to an obligation of professional secrecy or other equivalent obligations of secrecy where necessary and proportionate to reconcile the right to the protection of personal data with the obligation of secrecy. Those rules shall apply only to personal data received or obtained by a controller or processor as a result of or in an activity covered by that obligation of secrecy. Each Member State shall notify the Commission of the rules adopted pursuant to this paragraph by 25 May 2018 and any subsequent amendments affecting them.",
+      "AI_ACT-with-image-refs_chunk_13": "This Regulation applies to: (a) providers placing on the market or putting into service AI systems or general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country; (b) deployers of AI systems that have their place of establishment or are located within the Union; (c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the AI system is used in the Union; (d) importers and distributors of AI systems; (e) product manufacturers placing on the market or putting into service an AI system together with their product and under their own name or trademark; (f) authorised representatives of providers not established in the Union; and (g) affected persons that are located in the Union. It further specifies limitations regarding high-risk AI systems, as well as exceptions for systems developed exclusively for military, defence, or national security purposes, and excludes certain research, testing, and non-professional personal activities.",
+      "GDPR-with-image-refs_chunk_37": "Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and organisational measures to ensure and be able to demonstrate that the processing is performed in accordance with this Regulation. Where proportionate, these measures may include the implementation of appropriate data protection policies. Adherence to approved codes of conduct or certification mechanisms may be used as an element to demonstrate compliance with the controller’s obligations.",
+      "GDPR-with-image-refs_chunk_52": "The controller and the processor shall designate a data protection officer in any case where: (a) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity; (b) the core activities of the controller or processor consist of processing operations which, by reason of their nature, scope and/or purposes, require regular and systematic monitoring of data subjects on a large scale; or (c) the core activities involve processing on a large scale of special categories of data or personal data relating to criminal convictions and offences. A group of undertakings may appoint a single data protection officer provided that the officer is easily accessible from each establishment, and in cases involving public authorities or bodies, a single officer may be designated for several entities in accordance with their organisational structure and size. The data protection officer shall be designated based on professional qualities and expert knowledge of data protection law and practices, and their contact details shall be published and communicated to the supervisory authority."
     }
   },
   {
     "question": "How is data breach defined?",
-    "answer": "Breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data.",
+    "ground_truth_answer": "Breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, personal data.",
     "difficulty": "medium",
-    "chunk_ids": [
+    "ground_truth_chunk_ids": [
       "GDPR-with-image-refs_chunk_12",
       "GDPR-with-image-refs_chunk_47",
       "GDPR-with-image-refs_chunk_48",
@@ -869,19 +1182,31 @@
       "GDPR-with-image-refs_chunk_8"
     ],
     "document": "GDPR-with-image-refs",
-    "llm_response": "The provided excerpts do not include a standalone, explicit definition of a \"data breach\" (or \"personal data breach\"). Instead, they focus on the procedural requirements that follow a breach. For instance, the texts outline that if a breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller is obligated to communicate the breach to the data subject without undue delay, and to notify the supervisory authority within 72 hours of becoming aware of it. However, a specific, concise definition of what exactly constitutes a data breach is not set out in the given text.",
+    "retrieved_chunk_ids": [
+      "GDPR-with-image-refs_chunk_48",
+      "GDPR-with-image-refs_chunk_47",
+      "GDPR-with-image-refs_chunk_27",
+      "GDPR-with-image-refs_chunk_97",
+      "GDPR-with-image-refs_chunk_64",
+      "GDPR-with-image-refs_chunk_63",
+      "GDPR-with-image-refs_chunk_29",
+      "GDPR-with-image-refs_chunk_6",
+      "GDPR-with-image-refs_chunk_28",
+      "GDPR-with-image-refs_chunk_26"
+    ],
+    "llm_response": "The provided context does not offer an explicit definition of what constitutes a data breach (or personal data breach). Instead, it outlines the obligations and procedures that must be followed when a data breach occurs, such as notifying the data subject and the supervisory authority, and the conditions under which such notifications must be made. In summary, while the text details the actions and communications required in response to a breach, it does not define the term itself.",
     "is_relevant": true,
-    "citation": {
-      "GDPR-with-image-refs_chunk_48": "When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.",
-      "GDPR-with-image-refs_chunk_47": "The controller shall communicate the personal data breach to the data subject without undue delay.",
-      "GDPR-with-image-refs_chunk_27": "In the case of a personal data breach, the controller shall notify the personal data breach to the supervisory authority within 72 hours, unless the breach is unlikely to result in a risk to the rights and freedoms of natural persons.",
-      "GDPR-with-image-refs_chunk_97": "The communication to the data subject shall describe in clear and plain language the nature of the personal data breach and contain at least the information and measures referred to in points (b), (c) and (d) of Article 33(3).",
-      "GDPR-with-image-refs_chunk_64": "There is no explicit definition of a 'data breach' provided in the excerpts; the focus is on the steps to be taken when one occurs.",
-      "GDPR-with-image-refs_chunk_63": "The provided texts outline procedures for notification and communication after a data breach has occurred, rather than defining what a data breach is.",
-      "GDPR-with-image-refs_chunk_29": "The context implies a data breach involves the compromise of personal data that could pose a high risk to the rights and freedoms of individuals, but it does not offer a precise definition.",
-      "GDPR-with-image-refs_chunk_6": "The processor is required to notify the controller without undue delay after becoming aware of a personal data breach.",
-      "GDPR-with-image-refs_chunk_28": "The emphasis in the texts is on notifying both data subjects and the supervisory authority, particularly when the breach poses a high risk, rather than on defining the breach itself.",
-      "GDPR-with-image-refs_chunk_26": "Appropriate technical and organisational measures, such as encryption, may mitigate the need for communication if they render the affected personal data unintelligible to unauthorized persons."
+    "cited_chunk_ids": {
+      "GDPR-with-image-refs_chunk_48": "Communication of a personal data breach to the data subject: 'When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.'",
+      "GDPR-with-image-refs_chunk_47": "The communication to the data subject shall describe in clear and plain language the nature of the personal data breach and contain at least the information and measures referred to in Article 33(3).",
+      "GDPR-with-image-refs_chunk_27": "Notification of a personal data breach to the supervisory authority: 'In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority...'",
+      "GDPR-with-image-refs_chunk_97": "The processor shall notify the controller without undue delay after becoming aware of a personal data breach.",
+      "GDPR-with-image-refs_chunk_64": "The notification to the supervisory authority shall at least: (a) describe the nature of the personal data breach, including, where possible, the categories and approximate number of data subjects affected...",
+      "GDPR-with-image-refs_chunk_63": "Additional procedural details are provided regarding the notification and handling of personal data breaches by relevant authorities.",
+      "GDPR-with-image-refs_chunk_29": "While other sections of the regulation discuss rights such as erasure and restriction of processing, none of these sections provide a direct definition of a data breach.",
+      "GDPR-with-image-refs_chunk_6": "The obligation to communicate a personal data breach emphasizes the circumstances under which a breach must be reported, without expressly defining the breach itself.",
+      "GDPR-with-image-refs_chunk_28": "The text focuses on the aftermath of a data breach, including notifications and documentation, rather than on its definition.",
+      "GDPR-with-image-refs_chunk_26": "Overall, although the term 'personal data breach' is used throughout the document, a precise definition is not provided in the excerpt."
     }
   }
 ]
