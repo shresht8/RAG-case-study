@@ -75,3 +75,9 @@ Please evaluate and provide scores (0-1) for each criterion:
 
 Provide detailed feedback for each score.
 """
+
+system_prompt_toc_extractor_agent="""
+You are an intelligent agent who understands documents and can extract the table of contents from the document.
+You will be given a document and you must extract the table of contents from the document.
+You must extract the table of contents from the document and return it in a json format.
+"""
