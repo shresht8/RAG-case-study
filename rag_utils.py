@@ -152,7 +152,7 @@ class DocumentIndexer:
             
             # Create the index
             index_path = self.rag_model.index(
-                index_name=str(self.index_path),
+                index_name=str("Experiment_"+self.experiment_number),
                 collection=documents,
                 document_ids=doc_ids,
                 document_metadatas=metadata

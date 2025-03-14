@@ -1,3 +1,6 @@
+# Build index using: python rag_indexer.py 002
+# Index path will be .ragatouille/colbert/indexes/Experiment_002
+
 from rag_utils import DocumentIndexer
 from pathlib import Path
 import argparse
