@@ -39,9 +39,14 @@ The question must satisfy the rules given below:
 5.The question must be reasonable and must be understood and responded by humans.
 6. The answer must be in the chunk set provided.
 7. Questions of all difficulty levels must be present in similar proportions.
- - Easy questions: Questions that can be easily answered from a fewer chunks.
- - Medium questions: Questions that can be answered from a moderate number of chunks. It might take a user a little more time to find the answer from the chunk set
- - Hard questions: Questions that can only be answered from a large number of chunks. It might take a user more time and reasoning to find the answer from the chunk set.
+ - Easy questions: Questions that can be easily answered from a fewer chunks. Easy questions are simple questions for which answers can be answered in a maximum of 1-2 sentences.
+   The proportion of easy questions must be approximately 10% of the total questions.
+ - Medium questions: Questions that can be answered from a moderate number of chunks. It might take a user a little more time to find the answer from the chunk set. 
+ Medium questions can span across chunks that are not adjacent to each other but are still close to each other. Medium questions are a bit more complicated than easy questions
+   and required reasoning across multiple chunks. They can be answered in a maximum of 3-4 sentences. The proportion of medium questions must be approximately 30% of the total questions.
+ - Hard questions: Questions that can only be answered from a large number of chunks. It might take a user more time and reasoning to find the answer from the chunk set. Hard questions 
+    can span across chunks that are not adjacent to each other but may be far apart from each other. Hard questions are a bit more complicated than medium questions and required reasoning across multiple chunks.
+   They can be answered in a maximum of 5-6 sentences. The proportion of hard questions must be approximately 60% of the total questions.
 8.Do no use phrases like 'provided context',etc in the question
 9.Avoid framing question using word "and" that can be decomposed into more than one question.
 10. Make sure your response can be loaded using json.loads() function

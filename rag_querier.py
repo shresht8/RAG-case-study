@@ -118,6 +118,7 @@ class RAGQuerier:
             print(f"Result {i}:")
             print(f"Score: {result['score']:.4f}")
             print(f"Content: {result['content'][:200]}...")  # Show first 200 chars
+            print(f"Document ID: {result['document_id']}")
             if 'document_metadata' in result:
                 print("Metadata:")
                 for key, value in result['document_metadata'].items():
