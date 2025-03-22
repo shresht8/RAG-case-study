@@ -156,7 +156,7 @@ class RAGSystem:
             # Get response from LLM
             response = self.client.chat.completions.create(
                 response_model=AnswerWithCitation,
-                model="gpt-3.5-turbo",
+                model="gpt-4o",
                 messages=messages,
                 max_retries=3
             )
