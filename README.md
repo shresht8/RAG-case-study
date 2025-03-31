@@ -16,7 +16,14 @@ The following strategies will be explore:
 ### Files:
 Code files are commented and different strategies are discussed in each file
 
-\n data-preprocess.ipynb: Contains pipeline for Data ingestion and chunking. 
+data-preprocess.ipynb: Contains pipeline for Data ingestion and chunking. Different experimentation methods discussed for the splitting and storing of chunks in an optimal manner
 train_pylate.py: Code to fine tune modernBERT for similarity search
 eval_set_generator: Contains code for the evaluation pipeline
 rag-system-final: Code for the retriever and final LLM response
+
+### Experiments:
+The experiments conducted are in the /Experiments folder with different methods explored
+
+#### Experiment 1
+
+#### Experiment 2
